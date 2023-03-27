@@ -1,0 +1,51 @@
+[
+  {
+    "objectID": "archive.html",
+    "href": "archive.html",
+    "title": "Archive",
+    "section": "",
+    "text": "Clear Paths for Reproducible R: Here Package\n\n\n\n\n\n\n\n\n\nMar 27, 2023\n\n\n\n\n\n\n\n\nWelcome To My Blog\n\n\n\n\n\n\n\n\n\nMar 24, 2023\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "blog.html",
+    "href": "blog.html",
+    "title": "SoundReproSteps",
+    "section": "",
+    "text": "Clear Paths for Reproducible R: Here Package\n\n\n\n\n\n\n\nbest-practices\n\n\nhere\n\n\nprojects\n\n\n\n\n\n\n\n\n\n\n\nMar 27, 2023\n\n\n3 min\n\n\n\n\n\n\n\n\nWelcome To My Blog\n\n\n\n\n\n\n\nnews\n\n\n\n\n\n\n\n\n\n\n\nMar 24, 2023\n\n\n1 min\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Dr. Soundarya Soundararajan",
+    "section": "",
+    "text": "Reproducible research is an essential part of scientific inquiry, and R is a tool that can help us achieve it.\n\nPrioritizing reproducibility in our research is crucial to increasing transparency and reliability, and R provides an excellent framework for achieving these goals. In this blog, we explore how R can help us achieve reproducibility in our research and share tips and best practices for making our work transparent and reproducible."
+  },
+  {
+    "objectID": "posts/post-with-code/here.html",
+    "href": "posts/post-with-code/here.html",
+    "title": "Clear Paths for Reproducible R: Here Package",
+    "section": "",
+    "text": "This post is an introduction to the here package, a powerful tool that helps maintain best practices in reproducible workflows.\nBefore using the here package I faced two main issues.\nInitially, I thought using a consistent folder structure with RStudio’s projects 1 would fix the first issue. However, this solution created additional confusion because my work computer’s operating system was different from my home computer’s. To make matters worse, my work system was fixed and the root directory changed, which added further complexity to my workflow.\nAs a result, I found myself writing separate sets of code to work effectively in both locations.\nI encountered further difficulties when I tried to automate my workflow by sourcing files. Alas, this made me go grrr 😠.\nThe answer to the troubles are in the here package.\n1pacman::p_load(here)\n2here()\n\n\n1\n\nInstalls and loads the package\n\n2\n\nTells you where the root is\n\n\n\n\n[1] \"D:/MyRProjects/SoundReproSteps\"\n📍By knowing where the root is helps you write better file paths.\nFor example, let’s say this is your folder structure.\n├── ProjectName.Rproj\n├── 📁Data\n——– ├── data_to_use.csv\n├── 📁Docs\n– ——├── example1.R\n——– ├── example2.Rmd"
+  },
+  {
+    "objectID": "posts/post-with-code/here.html#the-key-takeaway-for-reproducible-workflows-is-this",
+    "href": "posts/post-with-code/here.html#the-key-takeaway-for-reproducible-workflows-is-this",
+    "title": "Clear Paths for Reproducible R: Here Package",
+    "section": "The key takeaway for reproducible workflows is this",
+    "text": "The key takeaway for reproducible workflows is this\nUse the here package to write relative paths for reading and writing your data and files. This will streamline your workflow, allowing you to work seamlessly across different platforms and eliminating the need to constantly adjust file paths when switching between .R and .Rmd files.\n\nStreamline your workflow with here and say goodbye to path confusion!"
+  },
+  {
+    "objectID": "posts/post-with-code/here.html#footnotes",
+    "href": "posts/post-with-code/here.html#footnotes",
+    "title": "Clear Paths for Reproducible R: Here Package",
+    "section": "Footnotes",
+    "text": "Footnotes\n\n\nIn a previous blog post, I wrote about the importance of taking the first steps when starting a new project.Access it here↩︎"
+  },
+  {
+    "objectID": "posts/welcome/index.html",
+    "href": "posts/welcome/index.html",
+    "title": "Welcome To My Blog",
+    "section": "",
+    "text": "This is the first post in a Quarto blog. Welcome!\n\nSince this post doesn’t specify an explicit image, the first image in the post will be used in the listing page of posts."
+  }
+]

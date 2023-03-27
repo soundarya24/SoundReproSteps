@@ -1,0 +1,23 @@
+project:
+  type: website
+
+website:
+  title: "SoundReproSteps"
+  description: "This is a beginner-friendly blog that provides practical tips and step-by-step guidance for reproducible research practices."
+  navbar:
+    background: light
+    right:
+      - text: Blog
+      - href: blog.qmd
+      - icon: github
+        href: https://https://github.com/soundarya24
+      - icon: twitter
+        href: https://twitter.com/SoundaryaRak
+format:
+  html:
+    theme:
+      - cosmo
+      - theme.scss
+
+editor: visual
+

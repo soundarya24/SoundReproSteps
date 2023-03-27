@@ -1,0 +1,14 @@
+{
+  "hash": "a798e1f026d6f71437da1c7979d7779e",
+  "result": {
+    "markdown": "---\ntitle: \"Clear Paths for Reproducible R: Here Package\"\nauthor: \"Soundarya Soundararajan\"\ndate: \"2023-03-27\"\ncategories: [best-practices, here, projects]\nimage: \"image.jpg\"\n---\n\n\nThis is a post introducing the here library for best practices in reproducible workflows.\n\n![Where are you? I am here!](image.jpg){fig-align=\"center\"}\n\nI use the `here` package for two primary reasons.\n\n1.  I use windows at office and Mac at home.\n2.  I write both .R and .Rmd files and even for accessing same data, these both files require different file paths.\n\nUsing a consistent folder structure using the `projects` in RStudio initially seemed to fix problem 1. But I had my OS fixed at office that added more confusions. The answer to both the troubles are in the `here` package.\n\n\n::: {.cell}\n\n```{.r .cell-code}\npacman::p_load(here)#<1>\nhere()#<1>\n```\n\n::: {.cell-output .cell-output-stdout}\n```\n[1] \"D:/MyRProjects/SoundReproSteps\"\n```\n:::\n:::\n\n\n1.  Installs and loads the package\n2.  Tells you where the root is\n\n📍By knowing where the root is helps you write better file paths.\n\nFor example, let's say this is my folder structure.\n\n├── ProjectName.Rproj \n├── 📁Data \n    ├── data_to_use.csv \n├── 📁Docs \n    ├── example1.R \n    ├── example2.Rmd\n",
+    "supporting": [],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}

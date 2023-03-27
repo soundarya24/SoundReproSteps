@@ -1,0 +1,82 @@
+---
+title: "Clear Paths for Reproducible R: Here Package"
+author: "Soundarya Soundararajan"
+date: "2023-03-27"
+categories: [best-practices, here, projects]
+image: "image.jpg"
+---
+
+This post is an introduction to the `here` package, a powerful tool that helps maintain best practices in reproducible workflows.
+
+![Where are you? I am here!](image.jpg){fig-align="center"}
+
+Before using the `here` package I faced two main issues.
+
+1.  Switching between my Windows work computer and Mac Laptop at home, meant that I had to write two different sets of code to access files.
+
+2.  As I write both .R and .Rmd files, accessing the same data in both formats required different file paths. This has been a ongoing issue for me.
+
+![A question to my post on here in Twitter](projects.png){fig-align="center"}
+
+Initially, I thought using a consistent folder structure with RStudio's projects [^1] would fix the first issue. However, this solution created additional confusion because my work computer's operating system was different from my home computer's. To make matters worse, my work system was fixed and the root directory changed, which added further complexity to my workflow.
+
+[^1]: In a previous blog post, I wrote about the importance of taking the first steps when starting a new project.[Access it here](https://ss-myrspace.netlify.app/posts/2021-08-03-starting-projects-in-rstudio/)
+
+As a result, I found myself writing separate sets of code to work effectively in both locations.
+
+![Initial fix that worked temporarily](before.jpeg){fig-align="center"}
+
+I encountered further difficulties when I tried to automate my workflow by sourcing files. Alas, this made me go grrr 😠.
+
+The answer to the troubles are in the `here` package.
+
+```{r}
+pacman::p_load(here)#<1>
+here()#<2>
+```
+
+1.  Installs and loads the package
+2.  Tells you where the root is
+
+📍By knowing where the root is helps you write better file paths.
+
+For example, let's say this is your folder structure.
+
+├── ProjectName.Rproj\
+├── 📁Data\
+-------- ├── data_to_use.csv\
+├── 📁Docs\
+-- ------├── example1.R\
+-------- ├── example2.Rmd
+
+### Before here
+
+To be able to access the data, the code in .R file would be
+
+```{r}
+#read.csv("D:/MyRProjects/SoundReproSteps/Data/data_to_use.csv")
+```
+
+As mentioned above, this issue arises because of the use of absolute paths, which are not suitable for use inside an .Rmd file. This is because the root directory for an .Rmd file is determined by its location.
+
+> 🦹‍♀️`here` is for the rescue, do not fret!
+
+### After here
+
+Now both .R and .Rmd can take the following path.
+
+```{r}
+#read.csv(here("Data", "data_to_use.csv"))
+```
+
+Please note that the `Data` folder is the first folder to be accessed in the root directory, and subsequent files should be specified by their folder names
+
+![My long standing problem got fixed with the here package](after.png){fig-align="center" width="702"}
+
+The here package solves both of the problems we encountered earlier, making life easier for all of us. Read more about the package here, [here](https://here.r-lib.org/)! (I think it's pretty funny that it's called 'here' 😄)
+
+## The *key takeaway* for reproducible workflows is this
+
+Use the `here` package to write relative paths for reading and writing your data and files. This will streamline your workflow, allowing you to work seamlessly across different platforms and eliminating the need to constantly adjust file paths when switching between .R and .Rmd files.
+
+> [**Streamline your workflow with here and say goodbye to path confusion!**]{style="color:#694644;"}
