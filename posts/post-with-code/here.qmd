@@ -59,7 +59,7 @@ To be able to access the data, the code in .R file would be
 
 As mentioned above, this issue arises because of the use of absolute paths, which are not suitable for use inside an .Rmd file. This is because the root directory for an .Rmd file is determined by its location.
 
-> 🦹‍♀️`here` is for the rescue, do not fret!
+> 🦹‍♀️**`here` is for the rescue, do not fret!**
 
 ### After here
 
