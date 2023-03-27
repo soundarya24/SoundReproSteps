@@ -182,7 +182,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
   <ul>
   <li><a href="#before-here" id="toc-before-here" class="nav-link active" data-scroll-target="#before-here">Before here</a></li>
   <li><a href="#after-here" id="toc-after-here" class="nav-link" data-scroll-target="#after-here">After here</a></li>
-  <li><a href="#the-key-takeaway-for-reproducible-workflows-is-this" id="toc-the-key-takeaway-for-reproducible-workflows-is-this" class="nav-link" data-scroll-target="#the-key-takeaway-for-reproducible-workflows-is-this">The key takeaway for reproducible workflows is this</a></li>
+  <li><a href="#the-key-takeaway-for-reproducible-workflows-is-this" id="toc-the-key-takeaway-for-reproducible-workflows-is-this" class="nav-link" data-scroll-target="#the-key-takeaway-for-reproducible-workflows-is-this">The <em>key takeaway</em> for reproducible workflows is this</a></li>
   </ul>
 </nav>
     </div>
@@ -227,11 +227,11 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <dl class="code-annotation-container-grid">
 <dt data-target-cell="annotated-cell-1" data-target-annotation="1">1</dt>
 <dd>
-<span data-code-annotation="1" data-code-cell="annotated-cell-1" data-code-lines="1">Installs and loads the package</span>
+<span data-code-cell="annotated-cell-1" data-code-annotation="1" data-code-lines="1">Installs and loads the package</span>
 </dd>
 <dt data-target-cell="annotated-cell-1" data-target-annotation="2">2</dt>
 <dd>
-<span data-code-annotation="2" data-code-cell="annotated-cell-1" data-code-lines="2">Tells you where the root is</span>
+<span data-code-cell="annotated-cell-1" data-code-annotation="2" data-code-lines="2">Tells you where the root is</span>
 </dd>
 </dl>
 </div>
@@ -255,7 +255,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </div>
 <p>As mentioned above, this issue arises because of the use of absolute paths, which are not suitable for use inside an .Rmd file. This is because the root directory for an .Rmd file is determined by its location.</p>
 <blockquote class="blockquote">
-<p>🦹‍♀️<code>here</code> is for the rescue, do not fret!</p>
+<p>🦹‍♀️<strong><code>here</code> is for the rescue, do not fret!</strong></p>
 </blockquote>
 </section>
 <section id="after-here" class="level3">
@@ -274,7 +274,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <p>The here package solves both of the problems we encountered earlier, making life easier for all of us. Read more about the package here, <a href="https://here.r-lib.org/">here</a>! (I think it’s pretty funny that it’s called ‘here’ 😄)</p>
 </section>
 <section id="the-key-takeaway-for-reproducible-workflows-is-this" class="level2">
-<h2 class="anchored" data-anchor-id="the-key-takeaway-for-reproducible-workflows-is-this">The key takeaway for reproducible workflows is this</h2>
+<h2 class="anchored" data-anchor-id="the-key-takeaway-for-reproducible-workflows-is-this">The <em>key takeaway</em> for reproducible workflows is this</h2>
 <p>Use the <code>here</code> package to write relative paths for reading and writing your data and files. This will streamline your workflow, allowing you to work seamlessly across different platforms and eliminating the need to constantly adjust file paths when switching between .R and .Rmd files.</p>
 <blockquote class="blockquote">
 <p><span style="color:#694644;"><strong>Streamline your workflow with here and say goodbye to path confusion!</strong></span></p>
