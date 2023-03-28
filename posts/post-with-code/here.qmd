@@ -12,13 +12,13 @@ This post is an introduction to the `here` package, a powerful tool that helps m
 
 Before using the `here` package I faced two main issues.
 
-1.  Switching between my Windows work computer and Mac Laptop at home, meant that I had to write two different sets of code to access files.
+1.  Switching between my Windows work computer and Macbook at home, meant that I had to write two different sets of code to access files.
 
 2.  As I write both .R and .Rmd files, accessing the same data in both formats required different file paths. This has been a ongoing issue for me.
 
 ![A question to my post on here in Twitter](projects.png){fig-align="center"}
 
-Initially, I thought using a consistent folder structure with RStudio's projects [^1] would fix the first issue. However, this solution created additional confusion because my work computer's operating system was different from my home computer's. To make matters worse, my work system was fixed and the root directory changed, which added further complexity to my workflow.
+Initially, I thought using a consistent folder structure with RStudio's projects [^1] would fix the first issue. This did temporarily solve my 1st problem, however, to make matters worse, my work system was fixed and the root directory changed. This added further complexity to my workflow.
 
 [^1]: In a previous blog post, I wrote about the importance of taking the first steps when starting a new project.[Access it here](https://ss-myrspace.netlify.app/posts/2021-08-03-starting-projects-in-rstudio/)
 
