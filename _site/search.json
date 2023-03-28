@@ -4,14 +4,14 @@
     "href": "archive.html",
     "title": "Archive",
     "section": "",
-    "text": "Clear Paths for Reproducible R: Here Package\n\n\n\n\n\n\n\n\n\nMar 27, 2023\n\n\n\n\n\n\n\n\nWelcome To My Blog\n\n\n\n\n\n\n\n\n\nMar 24, 2023\n\n\n\n\n\n\nNo matching items"
+    "text": "Building a Foundation for Success: How Reproducibility Practices in R Benefit Beginners\n\n\n\n\n\n\n\n\n\nMar 29, 2023\n\n\n\n\n\n\n\n\nClear Paths for Reproducible R: Here Package\n\n\n\n\n\n\n\n\n\nMar 27, 2023\n\n\n\n\n\n\n\n\nWelcome To My Blog\n\n\n\n\n\n\n\n\n\nMar 24, 2023\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "blog.html",
     "href": "blog.html",
     "title": "SoundReproSteps",
     "section": "",
-    "text": "Clear Paths for Reproducible R: Here Package\n\n\n\n\n\n\n\nbest-practices\n\n\nhere\n\n\nprojects\n\n\n\n\n\n\n\n\n\n\n\nMar 27, 2023\n\n\n3 min\n\n\n\n\n\n\n\n\nWelcome To My Blog\n\n\n\n\n\n\n\nnews\n\n\n\n\n\n\n\n\n\n\n\nMar 24, 2023\n\n\n1 min\n\n\n\n\n\n\nNo matching items"
+    "text": "Building a Foundation for Success: How Reproducibility Practices in R Benefit Beginners\n\n\n\n\n\n\n\nbest-practices\n\n\natomic-essays\n\n\nbeginners\n\n\n\n\n\n\n\n\n\n\n\nMar 29, 2023\n\n\n1 min\n\n\n\n\n\n\n\n\nClear Paths for Reproducible R: Here Package\n\n\n\n\n\n\n\nbest-practices\n\n\nhere\n\n\nprojects\n\n\n\n\n\n\n\n\n\n\n\nMar 27, 2023\n\n\n3 min\n\n\n\n\n\n\n\n\nWelcome To My Blog\n\n\n\n\n\n\n\nnews\n\n\n\n\n\n\n\n\n\n\n\nMar 24, 2023\n\n\n1 min\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "index.html",
@@ -47,5 +47,12 @@
     "title": "Welcome To My Blog",
     "section": "",
     "text": "This is the first post in a Quarto blog. Welcome!\n\nSince this post doesn’t specify an explicit image, the first image in the post will be used in the listing page of posts."
+  },
+  {
+    "objectID": "posts/benefits-reproducibility/reproducibility-benefits-beginners.html",
+    "href": "posts/benefits-reproducibility/reproducibility-benefits-beginners.html",
+    "title": "Building a Foundation for Success: How Reproducibility Practices in R Benefit Beginners",
+    "section": "",
+    "text": "As an advocate for reproducible research, I often wonder if beginners find it challenging to adopt reproducible practices. In this brief essay, I want to remind myself and others how beginners can benefit from such practices.\n\n\n\nMy atomic essay as appeared in Twitter on 29-03-2023\n\n\nLearn more on atomic essays here."
   }
 ]

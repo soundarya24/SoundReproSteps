@@ -1,0 +1,13 @@
+---
+title: "Building a Foundation for Success: How Reproducibility Practices in R Benefit Beginners"
+author: "Soundarya Soundararajan"
+date: "2023-03-29"
+categories: [best-practices, atomic-essays, beginners]
+image: "Why-Reproducible-Research-in-R-Matters-for-Beginners.jpg"
+---
+
+As an advocate for reproducible research, I often wonder if beginners find it challenging to adopt reproducible practices. In this brief essay, I want to remind myself and others how beginners can benefit from such practices.
+
+![My atomic essay as appeared in Twitter on 29-03-2023](Why-Reproducible-Research-in-R-Matters-for-Beginners.png){fig-align="center"}
+
+Learn more on atomic essays [here](https://www.ship30for30.com/post/how-to-write-an-atomic-essay-a-beginners-guide#:~:text=Atomic%20Essays%2C%20then%2C%20are%20how,Publish%20with%20prolific).
