@@ -1,5 +1,26 @@
 [
   {
+    "objectID": "archive.html",
+    "href": "archive.html",
+    "title": "Archive",
+    "section": "",
+    "text": "Clear Paths for Reproducible R: Here Package\n\n\n\n\n\n\n\n\n\nMar 27, 2023\n\n\n\n\n\n\n\n\nWelcome To My Blog\n\n\n\n\n\n\n\n\n\nMar 24, 2023\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "blog.html",
+    "href": "blog.html",
+    "title": "SoundReproSteps",
+    "section": "",
+    "text": "Clear Paths for Reproducible R: Here Package\n\n\n\n\n\n\n\nbest-practices\n\n\nhere\n\n\nprojects\n\n\n\n\n\n\n\n\n\n\n\nMar 27, 2023\n\n\n3 min\n\n\n\n\n\n\n\n\nWelcome To My Blog\n\n\n\n\n\n\n\nnews\n\n\n\n\n\n\n\n\n\n\n\nMar 24, 2023\n\n\n1 min\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Dr. Soundarya Soundararajan",
+    "section": "",
+    "text": "Reproducible research is an essential part of scientific inquiry, and R is a tool that can help us achieve it.\n\nPrioritizing reproducibility in our research is crucial to increasing transparency and reliability, and R provides an excellent framework for achieving these goals. In this blog, we explore how R can help us achieve reproducibility in our research and share tips and best practices for making our work transparent and reproducible."
+  },
+  {
     "objectID": "posts/post-with-code/here.html",
     "href": "posts/post-with-code/here.html",
     "title": "Clear Paths for Reproducible R: Here Package",
@@ -19,20 +40,6 @@
     "title": "Clear Paths for Reproducible R: Here Package",
     "section": "Footnotes",
     "text": "Footnotes\n\n\nIn a previous blog post, I wrote about the importance of taking the first steps when starting a new project.Access it here↩︎"
-  },
-  {
-    "objectID": "archive.html",
-    "href": "archive.html",
-    "title": "Archive",
-    "section": "",
-    "text": "Clear Paths for Reproducible R: Here Package\n\n\n\n\n\n\n\n\n\nMar 27, 2023\n\n\n\n\n\n\n\n\nWelcome To My Blog\n\n\n\n\n\n\n\n\n\nMar 24, 2023\n\n\n\n\n\n\nNo matching items"
-  },
-  {
-    "objectID": "blog.html",
-    "href": "blog.html",
-    "title": "SoundReproSteps",
-    "section": "",
-    "text": "Clear Paths for Reproducible R: Here Package\n\n\n\n\n\n\n\nbest-practices\n\n\nhere\n\n\nprojects\n\n\n\n\n\n\n\n\n\n\n\nMar 27, 2023\n\n\n3 min\n\n\n\n\n\n\n\n\nWelcome To My Blog\n\n\n\n\n\n\n\nnews\n\n\n\n\n\n\n\n\n\n\n\nMar 24, 2023\n\n\n1 min\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "posts/welcome/index.html",
