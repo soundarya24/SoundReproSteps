@@ -2,6 +2,7 @@
   {
     "listing": "/archive.html",
     "items": [
+      "/posts/parallel-movies-research/modernstorytelling.html",
       "/posts/benefits-reproducibility/reproducibility-benefits-beginners.html",
       "/posts/post-with-code/here.html",
       "/posts/welcome/index.html"
@@ -10,6 +11,7 @@
   {
     "listing": "/blog.html",
     "items": [
+      "/posts/parallel-movies-research/modernstorytelling.html",
       "/posts/benefits-reproducibility/reproducibility-benefits-beginners.html",
       "/posts/post-with-code/here.html",
       "/posts/welcome/index.html"

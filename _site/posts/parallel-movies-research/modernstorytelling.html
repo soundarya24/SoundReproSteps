@@ -6,8 +6,10 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
+<meta name="author" content="Soundarya Soundararajan">
+<meta name="dcterms.date" content="2023-04-18">
 
-<title>SoundReproSteps</title>
+<title>SoundReproSteps - Modern Storytelling: Examining the parallels in Movies and Academic Papers</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -20,27 +22,44 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
-</style>
+/* CSS for citations */
+div.csl-bib-body { }
+div.csl-entry {
+  clear: both;
+}
+.hanging-indent div.csl-entry {
+  margin-left:2em;
+  text-indent:-2em;
+}
+div.csl-left-margin {
+  min-width:2em;
+  float:left;
+}
+div.csl-right-inline {
+  margin-left:2em;
+  padding-left:1em;
+}
+div.csl-indent {
+  margin-left: 2em;
+}</style>
 
 
-<script src="site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="site_libs/quarto-nav/headroom.min.js"></script>
-<script src="site_libs/clipboard/clipboard.min.js"></script>
-<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="site_libs/quarto-search/fuse.min.js"></script>
-<script src="site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="./">
-<script src="site_libs/quarto-listing/list.min.js"></script>
-<script src="site_libs/quarto-listing/quarto-listing.js"></script>
-<script src="site_libs/quarto-html/quarto.js"></script>
-<script src="site_libs/quarto-html/popper.min.js"></script>
-<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="site_libs/quarto-html/anchor.min.js"></script>
-<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
-<script src="site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../">
+<script src="../../site_libs/quarto-html/quarto.js"></script>
+<script src="../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -60,38 +79,7 @@ ul.task-list li input[type="checkbox"] {
     "search-submit-button-title": "Submit"
   }
 }</script>
-<script>
 
-  window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-listing .list');
-    if (!listingTargetEl) {
-      // No listing discovered, do not attach.
-      return; 
-    }
-
-    const options = {
-      valueNames: ['listing-date','listing-title','listing-reading-time','listing-description','listing-categories',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
-      
-      searchColumns: ["listing-date","listing-title","listing-author","listing-image","listing-description","listing-categories"],
-    };
-
-    window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-listing'] = new List('listing-listing', options);
-
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  });
-
-  window.addEventListener('hashchange',() => {
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  })
-  </script>
-
-  <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
-  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
 
 </head>
 
@@ -102,7 +90,7 @@ ul.task-list li input[type="checkbox"] {
     <nav class="navbar navbar-expand-lg navbar-dark ">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container">
-    <a class="navbar-brand" href="./index.html">
+    <a class="navbar-brand" href="../../index.html">
     <span class="navbar-title">SoundReproSteps</span>
     </a>
   </div>
@@ -115,7 +103,7 @@ ul.task-list li input[type="checkbox"] {
   <li class="dropdown-header">
  <span class="menu-text">Blog</span></li>
   <li class="nav-item">
-    <a class="nav-link active" href="./blog.html" rel="" target="" aria-current="page">
+    <a class="nav-link" href="../../blog.html" rel="" target="">
  <span class="menu-text">SoundReproSteps</span></a>
   </li>  
   <li class="nav-item compact">
@@ -136,195 +124,105 @@ ul.task-list li input[type="checkbox"] {
     </nav>
 </header>
 <!-- content -->
-<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
+<header id="title-block-header" class="quarto-title-block default page-columns page-full">
+  <div class="quarto-title-banner page-columns page-full">
+    <div class="quarto-title column-body">
+      <h1 class="title">Modern Storytelling: Examining the parallels in Movies and Academic Papers</h1>
+                                <div class="quarto-categories">
+                <div class="quarto-category">writing</div>
+                <div class="quarto-category">research</div>
+                <div class="quarto-category">beginners</div>
+              </div>
+                  </div>
+  </div>
+    
+  
+  <div class="quarto-title-meta">
+
+      <div>
+      <div class="quarto-title-meta-heading">Author</div>
+      <div class="quarto-title-meta-contents">
+               <p>Soundarya Soundararajan </p>
+            </div>
+    </div>
+      
+      <div>
+      <div class="quarto-title-meta-heading">Published</div>
+      <div class="quarto-title-meta-contents">
+        <p class="date">April 18, 2023</p>
+      </div>
+    </div>
+    
+      
+    </div>
+    
+  
+  </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        
-    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(4)</span></div><div class="category" data-category="atomic-essays">atomic-essays <span class="quarto-category-count">(1)</span></div><div class="category" data-category="beginners">beginners <span class="quarto-category-count">(2)</span></div><div class="category" data-category="best-practices">best-practices <span class="quarto-category-count">(2)</span></div><div class="category" data-category="here">here <span class="quarto-category-count">(1)</span></div><div class="category" data-category="news">news <span class="quarto-category-count">(1)</span></div><div class="category" data-category="projects">projects <span class="quarto-category-count">(1)</span></div><div class="category" data-category="research">research <span class="quarto-category-count">(1)</span></div><div class="category" data-category="writing">writing <span class="quarto-category-count">(1)</span></div></div></div>
-<!-- main -->
-<main class="content column-page-left" id="quarto-document-content">
-
-<header id="title-block-header" class="quarto-title-block default">
-<div class="quarto-title">
-<h1 class="title">SoundReproSteps</h1>
-</div>
-
-
-
-<div class="quarto-title-meta">
-
-    
-  
-    
-  </div>
-  
-
-</header>
-
-
-
-
-
-<div class="quarto-listing quarto-listing-container-default" id="listing-listing">
-<div class="listing-actions-group">
-    <div class="input-group input-group-sm quarto-listing-filter">
-      <span class="input-group-text"><i class="bi bi-search"></i></span>
-      <input type="text" class="search form-control" placeholder="Filter">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#hooking-at-the-very-beginning" id="toc-hooking-at-the-very-beginning" class="nav-link active" data-scroll-target="#hooking-at-the-very-beginning">Hooking at the very beginning</a></li>
+  <li><a href="#rippling-the-central-message-throughout-the-moviepaper" id="toc-rippling-the-central-message-throughout-the-moviepaper" class="nav-link" data-scroll-target="#rippling-the-central-message-throughout-the-moviepaper">Rippling the central message throughout the movie/paper</a></li>
+  <li><a href="#accepting-the-limitations" id="toc-accepting-the-limitations" class="nav-link" data-scroll-target="#accepting-the-limitations">Accepting the limitations</a></li>
+  </ul>
+</nav>
     </div>
-</div>
-<div class="list quarto-listing-default">
-<div class="quarto-post image-right" data-index="0" data-categories="writing,research,beginners" data-listing-date-sort="1681756200000" data-listing-file-modified-sort="1681802396474" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3">
-<div class="body">
-<a href="./posts/parallel-movies-research/modernstorytelling.html">
-<h3 class="no-anchor listing-title">
-Modern Storytelling: Examining the parallels in Movies and Academic Papers
-</h3>
-<div class="listing-subtitle">
+<!-- main -->
+<main class="content quarto-banner-title-block" id="quarto-document-content">
 
-</div>
-</a>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('writing'); return false;">
-writing
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('research'); return false;">
-research
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('beginners'); return false;">
-beginners
-</div>
-</div>
-<a href="./posts/parallel-movies-research/modernstorytelling.html">
-<div class="listing-description">
-<strong>A good movie and a good academic paper have striking parallels in their structure and impact.</strong>
-</div>
-</a>
-</div>
-<div class="metadata">
-<a href="./posts/parallel-movies-research/modernstorytelling.html">
-<div class="listing-date">
-Apr 18, 2023
-</div>
-<div class="listing-reading-time">
-3 min
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="1" data-categories="best-practices,atomic-essays,beginners" data-listing-date-sort="1680028200000" data-listing-file-modified-sort="1680000743941" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
-<div class="body">
-<a href="./posts/benefits-reproducibility/reproducibility-benefits-beginners.html">
-<h3 class="no-anchor listing-title">
-Building a Foundation for Success: How Reproducibility Practices in R Benefit Beginners
-</h3>
-<div class="listing-subtitle">
 
-</div>
-</a>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('best-practices'); return false;">
-best-practices
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('atomic-essays'); return false;">
-atomic-essays
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('beginners'); return false;">
-beginners
-</div>
-</div>
-<a href="./posts/benefits-reproducibility/reproducibility-benefits-beginners.html">
-<div class="listing-description">
-As an advocate for reproducible research, I…
-</div>
-</a>
-</div>
-<div class="metadata">
-<a href="./posts/benefits-reproducibility/reproducibility-benefits-beginners.html">
-<div class="listing-date">
-Mar 29, 2023
-</div>
-<div class="listing-reading-time">
-1 min
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="2" data-categories="best-practices,here,projects" data-listing-date-sort="1679855400000" data-listing-file-modified-sort="1680000832115" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3">
-<div class="body">
-<a href="./posts/post-with-code/here.html">
-<h3 class="no-anchor listing-title">
-Clear Paths for Reproducible R: Here Package
-</h3>
-<div class="listing-subtitle">
 
-</div>
-</a>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('best-practices'); return false;">
-best-practices
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('here'); return false;">
-here
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('projects'); return false;">
-projects
-</div>
-</div>
-<a href="./posts/post-with-code/here.html">
-<div class="listing-description">
-This post is an introduction to the <code>here</code> package, a powerful tool that helps maintain best practices in reproducible workflows.
-</div>
-</a>
-</div>
-<div class="metadata">
-<a href="./posts/post-with-code/here.html">
-<div class="listing-date">
-Mar 27, 2023
-</div>
-<div class="listing-reading-time">
-3 min
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="3" data-categories="news" data-listing-date-sort="1679596200000" data-listing-file-modified-sort="1679904940754" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
-<div class="body">
-<a href="./posts/welcome/index.html">
-<h3 class="no-anchor listing-title">
-Welcome To My Blog
-</h3>
-<div class="listing-subtitle">
 
+<blockquote class="blockquote">
+<p><strong>A good movie and a good academic paper have striking parallels in their structure and impact.</strong></p>
+</blockquote>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="https://unsplash.com/photos/RNl71IBvrDE?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText"><img src="parallel.jpg" class="quarto-discovered-preview-image img-fluid figure-img" width="333"></a></p>
+<p></p><figcaption class="figure-caption">Photo by Abbas Tehrani on Unsplash</figcaption><p></p>
+</figure>
 </div>
-</a>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('news'); return false;">
-news
+<p>Academic writing now requires good storytelling to engage readers effectively<span class="citation" data-cites="storytel2018">(<a href="#ref-storytel2018" role="doc-biblioref"><span>“Storytelling in Research”</span> 2018</a>)</span>. Introducing characters and establishing a story arc with conflicts and resolutions creates a memorable experience that enhances the understanding and appreciation of research.</p>
+<p>If you are new to the storytelling style in research writing, two key elements must not be missed: <strong>a hooking introduction and a central theme</strong>. A hooking introduction engages readers from the start, while a central theme provides the narrative structure that guides the reader through the research. These two elements are essential starting points for incorporating storytelling into your research writing.</p>
+<section id="hooking-at-the-very-beginning" class="level2">
+<h2 class="anchored" data-anchor-id="hooking-at-the-very-beginning">Hooking at the very beginning</h2>
+<p>A good movie grabs your attention within the first ten minutes by <em>portraying polarizing elements</em> and leaving you wondering how these opposing characters will be brought together, creating suspense. Similarly, a well-written academic paper requires a hooking introduction. This can be achieved by <em>using simple language and tailoring it to the central message that the paper conveys</em>. A lengthy and boring introduction indicates that the writer is not clear about what they want to communicate. An excellent introduction keeps the reader engaged in the paper, even if the subject matter is outside their area of expertise. <em>Hooking the reader and maintaining their engagement throughout the paper is crucial.</em></p>
+</section>
+<section id="rippling-the-central-message-throughout-the-moviepaper" class="level2">
+<h2 class="anchored" data-anchor-id="rippling-the-central-message-throughout-the-moviepaper">Rippling the central message throughout the movie/paper</h2>
+<blockquote class="blockquote">
+<p><strong>Each one of these is making a noise, and yet we do not catch it; it is only when they become the big aggregate that we hear.</strong> — Complete Works of Swami Vivekananda by Swami Vivekananda</p>
+</blockquote>
+<p>In a good movie, <em>the central message gains strength and power as the story unfolds</em>. Similarly, a well-written academic paper <em>should gradually ripple the central message throughout the text, gaining momentum from supporting results,</em> and leaving a lasting impact on the reader. A good movie that conveys its central message effectively leaves a lasting impression on the viewer, with all other aspects fading away in comparison. It is like a wave slowly gaining momentum until it hits you and leaves you drenched, and all you can recall is the message.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="https://unsplash.com/photos/RGvwatYi0-Q?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText"><img src="waves.jpg" class="img-fluid figure-img"></a></p>
+<p></p><figcaption class="figure-caption">Photo by Photoholgic on Unsplash</figcaption><p></p>
+</figure>
 </div>
+<p>Another effective way to leave a lasting impression is to make the central message the title of the paper<span class="citation" data-cites="kirchoff2021">(<a href="#ref-kirchoff2021" role="doc-biblioref">Kirchoff 2021</a>)</span>.</p>
+</section>
+<section id="accepting-the-limitations" class="level2">
+<h2 class="anchored" data-anchor-id="accepting-the-limitations">Accepting the limitations</h2>
+<p>A good story may have its limitations, but the central message is often so strong that the audience is willing to overlook any flaws. Similarly, a well-written academic paper may have its limitations, but by explicitly acknowledging them and establishing a compelling central theme, the reader is more likely to accept any weaknesses and embrace the central message despite the limitations.</p>
+<p><strong>To sum up</strong>, a great paper and an excellent movie have more in common than you might think, and they both have the power to leave a lasting impression on their audience. It’s fascinating to see how these two seemingly different forms of storytelling can share many similarities. <strong>Can you think of any other parallels between the two?</strong> The possibilities are endless, and exploring them further could lead to new insights and perspectives on the art of storytelling.</p>
+
+
+
+</section>
+
+<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" role="doc-bibliography"><h2 class="anchored quarto-appendix-heading">References</h2><div id="refs" class="references csl-bib-body hanging-indent" role="list">
+<div id="ref-kirchoff2021" class="csl-entry" role="listitem">
+Kirchoff, Bruce. 2021. <span>“How to Tell a Compelling Story in Scientific Presentations.”</span> <em>Nature</em> 600 (7890): S88–89. <a href="https://doi.org/10.1038/d41586-021-03603-2">https://doi.org/10.1038/d41586-021-03603-2</a>.
 </div>
-<a href="./posts/welcome/index.html">
-<div class="listing-description">
-This is the first post in a Quarto blog. Welcome!
+<div id="ref-storytel2018" class="csl-entry" role="listitem">
+<span>“Storytelling in Research.”</span> 2018. <em>Nature Biomedical Engineering</em> 2 (2): 53–53. <a href="https://doi.org/10.1038/s41551-018-0202-5">https://doi.org/10.1038/s41551-018-0202-5</a>.
 </div>
-</a>
-</div>
-<div class="metadata">
-<a href="./posts/welcome/index.html">
-<div class="listing-date">
-Mar 24, 2023
-</div>
-<div class="listing-reading-time">
-1 min
-</div>
-</a>
-</div>
-</div>
-</div>
-<div class="listing-no-matching d-none">
-No matching items
-</div>
-</div></main> <!-- /main -->
+</div></section></div></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {
