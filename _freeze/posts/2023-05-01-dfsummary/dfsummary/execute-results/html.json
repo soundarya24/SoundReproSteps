@@ -1,0 +1,14 @@
+{
+  "hash": "9bc2bbf9710d47a45212e76e3a37bb53",
+  "result": {
+    "markdown": "---\ntitle: \"Create a Comprehensive Report of All Variables in R\"\nauthor: \"Soundarya Soundararajan\"\ndate: \"2023-05-01\"\ncategories: [EDA,data-overview, beginners]\nimage: \"kal-visuals-Y6fBphIg6Yo-unsplash.jpg\"\n---\n\n\nTo effectively analyze data, understanding the characteristics of variables in the dataset is crucial. Generating a comprehensive summary of variables helps to identify duplicates, important variables, and necessary transformations based on their distributions. In this post, I will generate a summary report using the summarytools package in R, and also ahow how to avoid common mistakes. This technique is useful for datasets of any size and facilitates efficient data analysis.\n\n## Libraries required\n\n\n::: {.cell}\n\n```{.r .cell-code}\n# Install pacman if you have not\n# install.packages(\"pacman\")\npacman::p_load(\"summarytools\", \"palmerpenguins\")\n```\n:::\n\n\n## Summarize the data\n\n\n::: {.cell}\n\n```{.r .cell-code}\nview(dfSummary(penguins))\n```\n:::\n\n\n## Output\n\nThe output appears in the viewer pane, where categorical and continuous variables are charted with bar or histogram formats, respectively. \n\n![Screenshot of the output](summarytools-screenshot.png){fig-align=\"center\"}\n\nTo save the output, simply click 'show in new window' and then right-click the opened browser window to save it to the desired location.\n\n![](openinnew.jpg){fig-align=\"center\"}\n\n## Mistake to avoid\n\nA common beginner's mistake is to use the `View()` function instead of the `view()` function (with a small 'v'). The former opens the dataset in R, whereas the latter is a function of the `summarytools` package used to create the output.\n\n## Why this works?\n\nI initially developed this summary report during my postdoctoral research, and my supervisor was impressed by its ability to provide a concise, one-page summary of important variables, complete with a graphic overview that is useful for downstream decision-making.\n\n> **Before you dive into the depths of data, take flight with a bird's eye view of the dataset at hand**\n\n![Photo by <a href=\"https://unsplash.com/pt-br/@kalvisuals?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText\">KAL VISUALS</a> on <a href=\"https://unsplash.com/photos/Y6fBphIg6Yo?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText\">Unsplash</a>](kal-visuals-Y6fBphIg6Yo-unsplash.jpg){fig-align=\"center\"}\n",
+    "supporting": [],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}
