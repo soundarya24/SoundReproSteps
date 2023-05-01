@@ -2,6 +2,7 @@
   {
     "listing": "/archive.html",
     "items": [
+      "/posts/2023-05-01-dfsummary/dfsummary.html",
       "/posts/parallel-movies-research/modernstorytelling.html",
       "/posts/benefits-reproducibility/reproducibility-benefits-beginners.html",
       "/posts/post-with-code/here.html",
@@ -11,6 +12,7 @@
   {
     "listing": "/blog.html",
     "items": [
+      "/posts/2023-05-01-dfsummary/dfsummary.html",
       "/posts/parallel-movies-research/modernstorytelling.html",
       "/posts/benefits-reproducibility/reproducibility-benefits-beginners.html",
       "/posts/post-with-code/here.html",

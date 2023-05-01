@@ -4,14 +4,14 @@
     "href": "archive.html",
     "title": "Archive",
     "section": "",
-    "text": "Modern Storytelling: Examining the parallels in Movies and Academic Papers\n\n\n\n\n\n\n\n\n\nApr 18, 2023\n\n\n\n\n\n\n\n\nBuilding a Foundation for Success: How Reproducibility Practices in R Benefit Beginners\n\n\n\n\n\n\n\n\n\nMar 29, 2023\n\n\n\n\n\n\n\n\nClear Paths for Reproducible R: Here Package\n\n\n\n\n\n\n\n\n\nMar 27, 2023\n\n\n\n\n\n\n\n\nWelcome To My Blog\n\n\n\n\n\n\n\n\n\nMar 24, 2023\n\n\n\n\n\n\nNo matching items"
+    "text": "Create a Comprehensive Report of All Variables in R\n\n\n\n\n\n\n\n\n\nMay 1, 2023\n\n\n\n\n\n\n\n\nModern Storytelling: Examining the parallels in Movies and Academic Papers\n\n\n\n\n\n\n\n\n\nApr 18, 2023\n\n\n\n\n\n\n\n\nBuilding a Foundation for Success: How Reproducibility Practices in R Benefit Beginners\n\n\n\n\n\n\n\n\n\nMar 29, 2023\n\n\n\n\n\n\n\n\nClear Paths for Reproducible R: Here Package\n\n\n\n\n\n\n\n\n\nMar 27, 2023\n\n\n\n\n\n\n\n\nWelcome To My Blog\n\n\n\n\n\n\n\n\n\nMar 24, 2023\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "blog.html",
     "href": "blog.html",
     "title": "SoundReproSteps",
     "section": "",
-    "text": "Modern Storytelling: Examining the parallels in Movies and Academic Papers\n\n\n\n\n\n\n\nwriting\n\n\nresearch\n\n\nbeginners\n\n\n\n\n\n\n\n\n\n\n\nApr 18, 2023\n\n\n3 min\n\n\n\n\n\n\n\n\nBuilding a Foundation for Success: How Reproducibility Practices in R Benefit Beginners\n\n\n\n\n\n\n\nbest-practices\n\n\natomic-essays\n\n\nbeginners\n\n\n\n\n\n\n\n\n\n\n\nMar 29, 2023\n\n\n1 min\n\n\n\n\n\n\n\n\nClear Paths for Reproducible R: Here Package\n\n\n\n\n\n\n\nbest-practices\n\n\nhere\n\n\nprojects\n\n\n\n\n\n\n\n\n\n\n\nMar 27, 2023\n\n\n3 min\n\n\n\n\n\n\n\n\nWelcome To My Blog\n\n\n\n\n\n\n\nnews\n\n\n\n\n\n\n\n\n\n\n\nMar 24, 2023\n\n\n1 min\n\n\n\n\n\n\nNo matching items"
+    "text": "Create a Comprehensive Report of All Variables in R\n\n\n\n\n\n\n\nEDA\n\n\ndata-overview\n\n\nbeginners\n\n\n\n\n\n\n\n\n\n\n\nMay 1, 2023\n\n\n2 min\n\n\n\n\n\n\n\n\nModern Storytelling: Examining the parallels in Movies and Academic Papers\n\n\n\n\n\n\n\nwriting\n\n\nresearch\n\n\nbeginners\n\n\n\n\n\n\n\n\n\n\n\nApr 18, 2023\n\n\n3 min\n\n\n\n\n\n\n\n\nBuilding a Foundation for Success: How Reproducibility Practices in R Benefit Beginners\n\n\n\n\n\n\n\nbest-practices\n\n\natomic-essays\n\n\nbeginners\n\n\n\n\n\n\n\n\n\n\n\nMar 29, 2023\n\n\n1 min\n\n\n\n\n\n\n\n\nClear Paths for Reproducible R: Here Package\n\n\n\n\n\n\n\nbest-practices\n\n\nhere\n\n\nprojects\n\n\n\n\n\n\n\n\n\n\n\nMar 27, 2023\n\n\n3 min\n\n\n\n\n\n\n\n\nWelcome To My Blog\n\n\n\n\n\n\n\nnews\n\n\n\n\n\n\n\n\n\n\n\nMar 24, 2023\n\n\n1 min\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "index.html",
@@ -82,5 +82,47 @@
     "title": "Modern Storytelling: Examining the parallels in Movies and Academic Papers",
     "section": "Accepting the limitations",
     "text": "Accepting the limitations\nA good story may have its limitations, but the central message is often so strong that the audience is willing to overlook any flaws. Similarly, a well-written academic paper may have its limitations, but by explicitly acknowledging them and establishing a compelling central theme, the reader is more likely to accept any weaknesses and embrace the central message despite the limitations.\nTo sum up, a great paper and an excellent movie have more in common than you might think, and they both have the power to leave a lasting impression on their audience. It’s fascinating to see how these two seemingly different forms of storytelling can share many similarities. Can you think of any other parallels between the two? The possibilities are endless, and exploring them further could lead to new insights and perspectives on the art of storytelling."
+  },
+  {
+    "objectID": "posts/2023-05-01-dfsummary/dfsummary.html",
+    "href": "posts/2023-05-01-dfsummary/dfsummary.html",
+    "title": "Create a Comprehensive Report of All Variables in R",
+    "section": "",
+    "text": "To effectively analyze data, understanding the characteristics of variables in the dataset is crucial.\nGenerating a comprehensive summary of variables helps to identify duplicates, important variables, and necessary transformations based on their distributions. In this post, I will generate a summary report using the summarytools package in R, and also ahow how to avoid common mistakes. This technique is useful for datasets of any size and facilitates efficient data analysis."
+  },
+  {
+    "objectID": "posts/2023-05-01-dfsummary/dfsummary.html#libraries-required",
+    "href": "posts/2023-05-01-dfsummary/dfsummary.html#libraries-required",
+    "title": "Create a Comprehensive Report of All Variables in R",
+    "section": "Libraries required",
+    "text": "Libraries required\n\n# Install pacman if you have not\n# install.packages(\"pacman\")\npacman::p_load(\"summarytools\", \"palmerpenguins\")"
+  },
+  {
+    "objectID": "posts/2023-05-01-dfsummary/dfsummary.html#summarize-the-data",
+    "href": "posts/2023-05-01-dfsummary/dfsummary.html#summarize-the-data",
+    "title": "Create a Comprehensive Report of All Variables in R",
+    "section": "Summarize the data",
+    "text": "Summarize the data\n\nview(dfSummary(penguins))"
+  },
+  {
+    "objectID": "posts/2023-05-01-dfsummary/dfsummary.html#output",
+    "href": "posts/2023-05-01-dfsummary/dfsummary.html#output",
+    "title": "Create a Comprehensive Report of All Variables in R",
+    "section": "Output",
+    "text": "Output\nThe output appears in the viewer pane, where categorical and continuous variables are charted with bar or histogram formats, respectively.\n\n\n\nScreenshot of the output\n\n\nTo save the output, simply click ‘show in new window’ and then right-click the opened browser window to save it to the desired location."
+  },
+  {
+    "objectID": "posts/2023-05-01-dfsummary/dfsummary.html#why-this-works",
+    "href": "posts/2023-05-01-dfsummary/dfsummary.html#why-this-works",
+    "title": "Create a Comprehensive Report of All Variables in R",
+    "section": "Why this works?",
+    "text": "Why this works?\nI initially developed this summary report during my postdoctoral research, and my supervisor was impressed by its ability to provide a concise, one-page summary of important variables, complete with a graphic overview that is useful for downstream decision-making.\n\nBefore you dive into the depths of data, take flight with a bird’s eye view of the dataset at hand\n\n\n\n\nPhoto by KAL VISUALS on Unsplash"
+  },
+  {
+    "objectID": "posts/2023-05-01-dfsummary/dfsummary.html#mistake-to-avoid",
+    "href": "posts/2023-05-01-dfsummary/dfsummary.html#mistake-to-avoid",
+    "title": "Create a Comprehensive Report of All Variables in R",
+    "section": "Mistake to avoid",
+    "text": "Mistake to avoid\nA common beginner’s mistake is to use the View() function instead of the view() function (with a small ‘v’). The former opens the dataset in R, whereas the latter is a function of the summarytools package used to create the output."
   }
 ]

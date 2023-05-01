@@ -6,7 +6,9 @@ categories: [EDA,data-overview, beginners]
 image: "kal-visuals-Y6fBphIg6Yo-unsplash.jpg"
 ---
 
-To effectively analyze data, understanding the characteristics of variables in the dataset is crucial. Generating a comprehensive summary of variables helps to identify duplicates, important variables, and necessary transformations based on their distributions. In this post, I will generate a summary report using the summarytools package in R, and also ahow how to avoid common mistakes. This technique is useful for datasets of any size and facilitates efficient data analysis.
+> **To effectively analyze data, understanding the characteristics of variables in the dataset is crucial.**
+
+Generating a comprehensive summary of variables helps to identify duplicates, important variables, and necessary transformations based on their distributions. In this post, I will generate a summary report using the summarytools package in R, and also ahow how to avoid common mistakes. This technique is useful for datasets of any size and facilitates efficient data analysis.
 
 ## Libraries required
 
@@ -25,7 +27,7 @@ view(dfSummary(penguins))
 
 ## Output
 
-The output appears in the viewer pane, where categorical and continuous variables are charted with bar or histogram formats, respectively. 
+The output appears in the viewer pane, where categorical and continuous variables are charted with bar or histogram formats, respectively.
 
 ![Screenshot of the output](summarytools-screenshot.png){fig-align="center"}
 
