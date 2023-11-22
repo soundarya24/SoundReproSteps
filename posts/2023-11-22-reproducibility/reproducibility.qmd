@@ -1,0 +1,49 @@
+---
+title: "Reproducibility: A Non-Negotiable Imperative"
+author: "Soundarya Soundararajan"
+date: "2023-11-22"
+categories: [reproducibility, research, science]
+image: "image.jpg"
+---
+
+# Reproducibility: A Non-Negotiable Imperative
+
+> **In the dynamic realm of scientific research, reproducibility stands as an unwavering pillar---a fundamental requirement rather than a dispensable luxury.**
+
+[![Photo by Angela Roma in Pexels](image.jpg){fig-align="center"}](https://www.pexels.com/photo/empty-white-photo-frames-hanging-on-gray-wall-7319097/)
+
+A common misconception prevails, suggesting that computational reproducibility is an indulgence that can be overlooked, especially in resource-scarce settings. In my humble opinion, such a perception poses a significant hurdle to scientific progress. Emphasizing reproducibility is not a superfluous endeavor; instead, it is a crucial step toward ensuring the credibility and reliability of scientific findings.
+
+> **The absence of reproducibility not only undermines the integrity of scientific endeavors but also obstructs the path to authentic contributions in the field.**
+
+## Breaking Down Resistance: Insights from Rodrigues
+
+To foster a deeper understanding of the importance of reproducibility, it's essential to address the resistance that often surrounds this concept. [Inspired by Bruno Rodrigues' insightful observations in the realm of reproducible pipelines in R](https://raps-with-r.dev/intro.html), it becomes evident that resistance stems from a lack of comprehension of reproducibility's inherent power.
+
+While the acknowledgment of its tedious nature might deter some, it is crucial to recognize that the benefits far outweigh the challenges. Rodrigues' work sheds light on the transformative potential of reproducibility, showcasing how it can not only enhance the credibility of research but also contribute to the overall advancement of scientific knowledge.
+
+## Establishing Foundations: The Significance of Pipelines
+
+To navigate the landscape of reproducibility effectively, it is imperative to prioritize the establishment of foundational reproducible pipelines. These pipelines serve as the bedrock for long-term progress, offering a structured approach to scientific inquiry.
+
+> **Once in place, reproducible pipelines facilitate iterative improvements, allowing researchers to build upon their work systematically.**
+
+The litmus test for scientific rigor lies in the ability to accurately recreate recent analyses down to the decimal point. Success in this task is contingent upon reflecting on the time it took---both without and with a laid-down pipeline.
+
+## Can You Take the Litmus Test?
+
+As we delve into the realm of scientific inquiry, the litmus test becomes a call to action. Can you confidently reproduce recent analyses, validating the robustness of your findings? It's a challenge worth undertaking, as success in this endeavor not only enhances the reliability of your research but also contributes to the collective strength of scientific knowledge.
+
+> **Reproducibility is not merely a check box in the scientific process; it is the cornerstone that fortifies the very foundation of credible and impactful research.**
+
+As we embrace the non-negotiable imperative of reproducibility, we pave the way for a future where scientific contributions are not just profound but enduring.
+
+[Suggested readings on reproducibility:]{.underline}
+
+1.  [A Student's Guide to Open Science](https://x.com/drcpennington/status/1626549565712224256?s=20) by Charlotte Pennington
+
+2.  [Reproducible Research: A Retrospective](https://www.annualreviews.org/doi/abs/10.1146/annurev-publhealth-012420-105110) by Roger Peng and Stephanie Hicks (Have you tried Dr. Peng's course on [Reproducible Research](https://www.coursera.org/learn/reproducible-research)?)
+
+3.  [Building reproducible analytical pipelines](https://raps-with-r.dev/) with R by Bruno Rodrigues
+
+[![One of my simple twitter threads focusing on 4 mistakes in reproducibility while working with R](mytweet.jpg){fig-align="center"}](https://x.com/SoundaryaRak/status/1655807811014782976?s=20)
