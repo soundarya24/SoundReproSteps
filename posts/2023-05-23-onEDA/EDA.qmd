@@ -1,0 +1,61 @@
+---
+title: "Exploring With Intention - Exploratory data analysis for beginners in R"
+author: "Soundarya Soundararajan"
+date: "2023-03-29"
+categories: [best-practices, EDA, beginners]
+image: "explore.jpg"
+editor_options: 
+  chunk_output_type: console
+---
+
+Let's explore
+
+[![Photo by Andrew Neel](explore.jpg)](https://www.pexels.com/photo/white-flag-2330507/)
+
+```{r}
+pacman::p_load(palmerpenguins,tidyverse,
+               report, skimr, summarytools)
+```
+
+## For the dataset
+
+### Rough and quick
+
+```{r}
+str(penguins) # Far better
+glimpse(penguins)
+report(penguins)
+psych::describe(penguins)
+```
+
+### Neat and quick
+
+```{r}
+skim(penguins)
+penguins |> 
+        group_by(species) |> 
+        skim()
+```
+
+
+```{r}
+dfSummary(penguins)
+#view(dfSummary(penguins))
+```
+
+
+## For individual variables
+
+### Continuous variables
+boxplots
+histograms/density plots
+
+## sHINY APP - Interactive
+
+https://jgassen.shinyapps.io/expand/ # but I am unable to use this
+
+```{r}
+library(ExPanDaR)
+#ExPanD(penguins)
+```
+

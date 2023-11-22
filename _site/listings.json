@@ -2,8 +2,10 @@
   {
     "listing": "/archive.html",
     "items": [
+      "/posts/2023-11-22-reproducibility/reproducibility.html",
       "/posts/2023-05-01-dfsummary/dfsummary.html",
       "/posts/parallel-movies-research/modernstorytelling.html",
+      "/posts/2023-05-23-onEDA/EDA.html",
       "/posts/benefits-reproducibility/reproducibility-benefits-beginners.html",
       "/posts/post-with-code/here.html",
       "/posts/welcome/index.html"
@@ -12,8 +14,10 @@
   {
     "listing": "/blog.html",
     "items": [
+      "/posts/2023-11-22-reproducibility/reproducibility.html",
       "/posts/2023-05-01-dfsummary/dfsummary.html",
       "/posts/parallel-movies-research/modernstorytelling.html",
+      "/posts/2023-05-23-onEDA/EDA.html",
       "/posts/benefits-reproducibility/reproducibility-benefits-beginners.html",
       "/posts/post-with-code/here.html",
       "/posts/welcome/index.html"

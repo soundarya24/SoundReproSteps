@@ -7,9 +7,9 @@ image: "parallel.jpg"
 bibliography: references.bib
 ---
 
-> **A good movie and a good academic paper have striking parallels in their structure and impact.**
+> **TLDR - A good movie and a good academic paper have striking similarities in their structure and impact.**
 
-[![Photo by Abbas Tehrani on Unsplash](parallel.jpg){fig-align="center" width="333"}](https://unsplash.com/photos/RNl71IBvrDE?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)
+[![Photo by Abbas Tehrani on Unsplash](parallel.jpg){fig-align="center"}](https://unsplash.com/photos/RNl71IBvrDE?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)
 
 Academic writing now requires good storytelling to engage readers effectively[@storytel2018]. Introducing characters and establishing a story arc with conflicts and resolutions creates a memorable experience that enhances the understanding and appreciation of research.
 
@@ -17,22 +17,18 @@ If you are new to the storytelling style in research writing, two key elements m
 
 ## Hooking at the very beginning
 
-A good movie grabs your attention within the first ten minutes by *portraying polarizing elements* and leaving you wondering how these opposing characters will be brought together, creating suspense. Similarly, a well-written academic paper requires a hooking introduction. This can be achieved by *using simple language and tailoring it to the central message that the paper conveys*. A lengthy and boring introduction indicates that the writer is not clear about what they want to communicate. An excellent introduction keeps the reader engaged in the paper, even if the subject matter is outside their area of expertise. *Hooking the reader and maintaining their engagement throughout the paper is crucial.*
+A good movie grabs your attention within the first ten minutes by *portraying polarizing elements* and leaving you wondering how these opposing characters will be brought together, creating suspense. Similarly, a well-written academic paper requires a hooking introduction. This can be achieved by using *simple language and tailoring it to the central message that the paper conveys.* A lengthy and boring introduction indicates that the writer is not clear about what they want to communicate. An excellent introduction keeps the reader engaged in the paper, even if the subject matter is outside their area of expertise. *Hooking the reader and maintaining their engagement throughout the paper is crucial.*
 
 ## Rippling the central message throughout the movie/paper
 
-> **Each one of these (minute waves) is making a noise, and yet we do not catch it; it is only when they become the big aggregate that we hear.** --- Complete Works of Swami Vivekananda by Swami Vivekananda
+In a good movie, the central message gains strength and power as the story unfolds. Similarly, a well-written academic paper should gradually ripple the central message throughout the text, gaining momentum from supporting results, and leaving a lasting impact on the reader. A good movie that conveys its central message effectively leaves a lasting impression on the viewer, with all other aspects fading away in comparison. It is like a wave slowly gaining momentum until it hits you and leaves you drenched, and all you can recall is the message. Another effective way to leave a lasting impression is to make the central message the title of the paper.
 
-In a good movie, *the central message gains strength and power as the story unfolds*. Similarly, a well-written academic paper *should gradually ripple the central message throughout the text, gaining momentum from supporting results,* and leaving a lasting impact on the reader. A good movie that conveys its central message effectively leaves a lasting impression on the viewer, with all other aspects fading away in comparison. It is like a wave slowly gaining momentum until it hits you and leaves you drenched, and all you can recall is the message.
-
-
+> Each one of these is making a noise, and yet we do not catch it; it is only when they become the big aggregate that we hear. --- Complete Works of Swami Vivekananda by Swami Vivekananda
 
 [![Photo by Photoholgic on Unsplash](waves.jpg)](https://unsplash.com/photos/RGvwatYi0-Q?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)
-
-Another effective way to leave a lasting impression is to make the central message the title of the paper[@kirchoff2021].
 
 ## Accepting the limitations
 
 A good story may have its limitations, but the central message is often so strong that the audience is willing to overlook any flaws. Similarly, a well-written academic paper may have its limitations, but by explicitly acknowledging them and establishing a compelling central theme, the reader is more likely to accept any weaknesses and embrace the central message despite the limitations.
 
-**To sum up**, a great paper and an excellent movie have more in common than you might think, and they both have the power to leave a lasting impression on their audience. It's fascinating to see how these two seemingly different forms of storytelling can share many similarities. **Can you think of any other parallels between the two?** The possibilities are endless, and exploring them further could lead to new insights and perspectives on the art of storytelling.
+A great paper and an excellent movie have more in common than you might think, and they both have the power to leave a lasting impression on their audience. It's fascinating to see how these two seemingly different forms of storytelling can share many similarities. Can you think of any other parallels between the two? The possibilities are endless, and exploring them further could lead to new insights and perspectives on the art of storytelling.
