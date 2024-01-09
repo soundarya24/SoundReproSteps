@@ -6,6 +6,7 @@ categories: [documentation, analysis, beginners]
 image: "files.jpg"
 editor_options: 
   chunk_output_type: console
+bibliography: references.bib
 ---
 
 > **This post offers a disciplined approach to maintaining research logs and a proactive mindset for efficient and standardized data analysis sessions.**
@@ -16,11 +17,11 @@ When I was asked for a detailed analysis conducted last month, I faced two chall
 
 I keep detailed logs of every step in my analysis. While my main results file has the big decisions, the log files are like prompts, capturing every little thing with timestamps. Even though I could remember the main process, the detailed parts were much clearer in my log files than in my memory.
 
-Maintaining these logs turned out to be a smart move. Writing things down as I go makes it much easier than trying to recall everything later. This idea aligns with Long's law of documentation:
+Maintaining these logs with the `logr` package [@bosak2022] turned out to be a smart move. Writing things down as I go makes it much easier than trying to recall everything later. This idea aligns with Long's law of documentation:
 
 > **"It's always faster to document it today than tomorrow."**
 
-I learned this from J. Scott Long's Stata book, a great resource, especially for those learning to code. Following this principle, I only wrap up an analysis session when I'm confident that the key details are safely stored in my log files.
+I learned this from J. Scott Long's Stata book[@long2008workflowdataanalysis], a great resource, especially for those learning to code. Following this principle, I only wrap up an analysis session when I'm confident that the key details are safely stored in my log files.
 
 This is a typical analysis session simplified.
 
@@ -91,4 +92,6 @@ Drawing inspiration from the Getting Things Done (GTD) concept, I conclude each 
 
 ## Takeaway
 
-The concept of research logs, as elucidated by Scott Long in his book on the workflow of data analysis using Stata, made a lasting impression on my approach to work. Long emphasizes the pivotal role of logging in keeping the work on track, defining log files as a comprehensive "record of what you have done, why you did it, and how you did that." In aligning with this philosophy, the "logr" package has proven instrumental in seamlessly implementing and maintaining this disciplined logging process. It has not only enabled me to adhere to Long's principles but has significantly enhanced the efficiency and reproducibility of my data analysis endeavors.
+The concept of research logs, as elucidated by Scott Long in his book on the workflow of data analysis using Stata, made a lasting impression on my approach to work. Long emphasizes the pivotal role of logging in keeping the work on track, defining log files as a comprehensive "record of what you have done, why you did it, and how you did that." [@long2008workflowdataanalysis] In aligning with this philosophy, the "logr" package has proven instrumental in seamlessly implementing and maintaining this disciplined logging process. It has not only enabled me to adhere to Long's principles but has significantly enhanced the efficiency and reproducibility of my data analysis endeavors.
+
+Read the full documentation of logr package [here](https://cran.r-project.org/web/packages/logr/logr.pdf).
