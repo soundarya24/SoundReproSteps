@@ -56,7 +56,26 @@ div.sourceCode
 @media screen {
 pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
 }
-</style>
+/* CSS for citations */
+div.csl-bib-body { }
+div.csl-entry {
+  clear: both;
+}
+.hanging-indent div.csl-entry {
+  margin-left:2em;
+  text-indent:-2em;
+}
+div.csl-left-margin {
+  min-width:2em;
+  float:left;
+}
+div.csl-right-inline {
+  margin-left:2em;
+  padding-left:1em;
+}
+div.csl-indent {
+  margin-left: 2em;
+}</style>
 
 
 <script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
@@ -208,11 +227,11 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </div>
 <p>When I was asked for a detailed analysis conducted last month, I faced two challenges. The steps were really detailed, making a lot of decisions necessary, and remembering the exact process a month later was tough. So, I turned to my log files.</p>
 <p>I keep detailed logs of every step in my analysis. While my main results file has the big decisions, the log files are like prompts, capturing every little thing with timestamps. Even though I could remember the main process, the detailed parts were much clearer in my log files than in my memory.</p>
-<p>Maintaining these logs turned out to be a smart move. Writing things down as I go makes it much easier than trying to recall everything later. This idea aligns with Long’s law of documentation:</p>
+<p>Maintaining these logs with the <code>logr</code> package <span class="citation" data-cites="bosak2022">(<a href="#ref-bosak2022" role="doc-biblioref">Bosak 2022</a>)</span> turned out to be a smart move. Writing things down as I go makes it much easier than trying to recall everything later. This idea aligns with Long’s law of documentation:</p>
 <blockquote class="blockquote">
 <p><strong>“It’s always faster to document it today than tomorrow.”</strong></p>
 </blockquote>
-<p>I learned this from J. Scott Long’s Stata book, a great resource, especially for those learning to code. Following this principle, I only wrap up an analysis session when I’m confident that the key details are safely stored in my log files.</p>
+<p>I learned this from J. Scott Long’s Stata book<span class="citation" data-cites="long2008workflowdataanalysis">(<a href="#ref-long2008workflowdataanalysis" role="doc-biblioref">Long 2008</a>)</span>, a great resource, especially for those learning to code. Following this principle, I only wrap up an analysis session when I’m confident that the key details are safely stored in my log files.</p>
 <p>This is a typical analysis session simplified.</p>
 <section id="packages" class="level2">
 <h2 class="anchored" data-anchor-id="packages">Packages</h2>
@@ -308,12 +327,21 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </section>
 <section id="takeaway" class="level2">
 <h2 class="anchored" data-anchor-id="takeaway">Takeaway</h2>
-<p>The concept of research logs, as elucidated by Scott Long in his book on the workflow of data analysis using Stata, made a lasting impression on my approach to work. Long emphasizes the pivotal role of logging in keeping the work on track, defining log files as a comprehensive “record of what you have done, why you did it, and how you did that.” In aligning with this philosophy, the “logr” package has proven instrumental in seamlessly implementing and maintaining this disciplined logging process. It has not only enabled me to adhere to Long’s principles but has significantly enhanced the efficiency and reproducibility of my data analysis endeavors.</p>
+<p>The concept of research logs, as elucidated by Scott Long in his book on the workflow of data analysis using Stata, made a lasting impression on my approach to work. Long emphasizes the pivotal role of logging in keeping the work on track, defining log files as a comprehensive “record of what you have done, why you did it, and how you did that.” <span class="citation" data-cites="long2008workflowdataanalysis">(<a href="#ref-long2008workflowdataanalysis" role="doc-biblioref">Long 2008</a>)</span> In aligning with this philosophy, the “logr” package has proven instrumental in seamlessly implementing and maintaining this disciplined logging process. It has not only enabled me to adhere to Long’s principles but has significantly enhanced the efficiency and reproducibility of my data analysis endeavors.</p>
+<p>Read the full documentation of logr package <a href="https://cran.r-project.org/web/packages/logr/logr.pdf">here</a>.</p>
+
 
 
 </section>
 
-</main> <!-- /main -->
+<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" role="doc-bibliography"><h2 class="anchored quarto-appendix-heading">References</h2><div id="refs" class="references csl-bib-body hanging-indent" role="list">
+<div id="ref-bosak2022" class="csl-entry" role="listitem">
+Bosak, David. 2022. <span>“Logr: Creates Log Files.”</span> <a href="https://CRAN.R-project.org/package=logr">https://CRAN.R-project.org/package=logr</a>.
+</div>
+<div id="ref-long2008workflowdataanalysis" class="csl-entry" role="listitem">
+Long, J Scott. 2008. <em>The Workflow of Data Analysis Using Stata</em>. Philadelphia, PA: Stata Press.
+</div>
+</div></section></div></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {
