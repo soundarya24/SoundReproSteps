@@ -1,0 +1,65 @@
+=========================================================================
+Log Path:
+D:/MyRProjects/SoundReproSteps/posts/2024-01-09-logr/logs/log/log_240109.log
+Program Path:
+D:/MyRProjects/SoundReproSteps/posts/2024-01-09-logr/20240109_logr_logscript.R
+Working Directory: D:/MyRProjects/SoundReproSteps
+User Name: Dr. Soundarya
+R Version: 4.2.2 (2022-10-31 ucrt)
+Machine: PC53 x86-64
+Operating System: Windows 10 x64 build 22621
+Base Packages: stats graphics grDevices utils datasets methods base Other
+Packages: here_1.0.1 lubridate_1.9.2 forcats_1.0.0 stringr_1.5.0 dplyr_1.1.2
+purrr_1.0.1 readr_2.1.4 tidyr_1.3.0 tibble_3.2.1 ggplot2_3.4.2 tidyverse_2.0.0
+palmerpenguins_0.1.1 logr_1.3.3
+Log Start Time: 2024-01-09 14:35:38
+=========================================================================
+
+I want to count the species of penguins and create a dataviz
+
+NOTE: Log Print Time:  2024-01-09 14:36:52
+NOTE: Elapsed Time: 1.22324755191803 mins
+
+visualization done, I need to try new colorpalette
+
+NOTE: Log Print Time:  2024-01-09 14:41:15
+NOTE: Elapsed Time: 4.38871943155924 mins
+
+added my favorite colors!!
+
+NOTE: Log Print Time:  2024-01-09 14:42:31
+NOTE: Elapsed Time: 1.26846703290939 mins
+
+# A tibble: 6 × 8
+  species island    bill_length_mm bill_depth_mm
+  <fct>   <fct>              <dbl>         <dbl>
+1 Adelie  Torgersen           39.1          18.7
+2 Adelie  Torgersen           39.5          17.4
+3 Adelie  Torgersen           40.3          18  
+4 Adelie  Torgersen           NA            NA  
+5 Adelie  Torgersen           36.7          19.3
+6 Adelie  Torgersen           39.3          20.6
+# ℹ 4 more variables: flipper_length_mm <int>,
+#   body_mass_g <int>, sex <fct>, year <int>
+
+NOTE: Data frame has 6 rows and 8 columns.
+
+NOTE: Log Print Time:  2024-01-09 14:42:58
+NOTE: Elapsed Time: 26.7569091320038 secs
+
+[1] 344   8
+
+NOTE: Log Print Time:  2024-01-09 14:43:11
+NOTE: Elapsed Time: 13.0182828903198 secs
+
+Warning message:
+[38;5;252mRemoved 2 rows containing non-finite values
+(`stat_boxplot()`).
+
+NOTE: Log Print Time: 2024-01-09 14:43:15
+NOTE: Log Elapsed Time: 3.93021297454834
+
+=========================================================================
+Log End Time: 2024-01-09 14:43:15
+Log Elapsed Time: 0 00:07:36
+=========================================================================
