@@ -1,7 +1,7 @@
 ---
 title: "From Charts to Consistency: My R Journey to Reproducibility"
 author: "Soundarya Soundararajan"
-date: "2024-03-26"
+date: "2024-07-02"
 categories: [reproducibility, Beginner, Best practices]
 image: "coding.jpg"
 editor_options: 
