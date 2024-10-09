@@ -8,7 +8,7 @@ editor_options:
   chunk_output_type: console
 ---
 
-**TLDR: In this post, I provide beginners with practical tips to embrace reproducibility while using R.**
+**In this post, I provide beginners with practical tips to embrace reproducibility while using R.**
 
 I see a lot of folks stumbling in R. They find it difficult, complex, and intimidating. They start their data analysis or visualization and find it very hard to proceed. They give up and move to other tools. There is a secret to approach R in a better way. This will not make you a pro overnight, but it will make you realize why you should embrace R as a beginner, despite its steep learning curve.
 
@@ -34,7 +34,7 @@ I offer 3 best practices and 3 mistakes to avoid to embrace reproducibility as a
 
 ## 3 Best Practices
 
-1.  **Clarify Code with Comments**: Always comment your code and document each step to ensure anyone can understand and reproduce your analysis. Writing a log is a much-needed practice during the initial stages of analysis. If you are keen to develop a logging practice, read my blog post on [logging using the logr ](https://sound-reproducible-r.netlify.app/posts/2024-01-09-logr/logr)
+1.  **Clarify Code with Comments**: Always comment your code and document each step to ensure anyone can understand and reproduce your analysis. Writing a log is a much-needed practice during the initial stages of analysis. If you are keen to develop a logging practice, read my blog post on [logging using the logr](https://sound-reproducible-r.netlify.app/posts/2024-01-09-logr/logr)
 2.  **Use Separate Scripts for Each Task**: Organize your work by creating different scripts for data cleaning, analysis, and visualization. This practice keeps your project organized and makes it easier to track and debug your code. It also allows you to reuse and share specific parts of your workflow with others, enhancing collaboration and efficiency.
 3.  **Treat Errors as Opportunities**: This can be incredibly frustrating when you start with R. But I recall one of my friend's words - *Welcome mistakes!* When you encounter errors, use them as chances to improve your code and make it more robust.
 

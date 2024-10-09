@@ -6,8 +6,10 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
+<meta name="author" content="Soundarya Soundararajan">
+<meta name="dcterms.date" content="2024-10-09">
 
-<title>SoundReproSteps - Archive</title>
+<title>SoundReproSteps - Beginning with reproducibility in mind</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -23,24 +25,22 @@ ul.task-list li input[type="checkbox"] {
 </style>
 
 
-<script src="site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="site_libs/quarto-nav/headroom.min.js"></script>
-<script src="site_libs/clipboard/clipboard.min.js"></script>
-<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="site_libs/quarto-search/fuse.min.js"></script>
-<script src="site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="./">
-<script src="site_libs/quarto-listing/list.min.js"></script>
-<script src="site_libs/quarto-listing/quarto-listing.js"></script>
-<script src="site_libs/quarto-html/quarto.js"></script>
-<script src="site_libs/quarto-html/popper.min.js"></script>
-<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="site_libs/quarto-html/anchor.min.js"></script>
-<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
-<script src="site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../">
+<script src="../../site_libs/quarto-html/quarto.js"></script>
+<script src="../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -68,76 +68,18 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
-<script>
 
-  window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-listing .list');
-    if (!listingTargetEl) {
-      // No listing discovered, do not attach.
-      return; 
-    }
-
-    const options = {
-      valueNames: ['listing-date','listing-title',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
-      
-      searchColumns: ["listing-date","listing-title","listing-author","listing-image","listing-description"],
-    };
-
-    window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-listing'] = new List('listing-listing', options);
-
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  });
-
-  window.addEventListener('hashchange',() => {
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  })
-  </script>
-
-  <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
-  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
-
-<script type="text/javascript">
-const typesetMath = (el) => {
-  if (window.MathJax) {
-    // MathJax Typeset
-    window.MathJax.typeset([el]);
-  } else if (window.katex) {
-    // KaTeX Render
-    var mathElements = el.getElementsByClassName("math");
-    var macros = [];
-    for (var i = 0; i < mathElements.length; i++) {
-      var texText = mathElements[i].firstChild;
-      if (mathElements[i].tagName == "SPAN") {
-        window.katex.render(texText.data, mathElements[i], {
-          displayMode: mathElements[i].classList.contains('display'),
-          throwOnError: false,
-          macros: macros,
-          fleqn: false
-        });
-      }
-    }
-  }
-}
-window.Quarto = {
-  typesetMath
-};
-</script>
 
 </head>
 
 <body class="nav-fixed">
 
 <div id="quarto-search-results"></div>
-  <header id="quarto-header" class="headroom fixed-top">
+  <header id="quarto-header" class="headroom fixed-top quarto-banner">
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
-    <a class="navbar-brand" href="./index.html">
+    <a class="navbar-brand" href="../../index.html">
     <span class="navbar-title">SoundReproSteps</span>
     </a>
   </div>
@@ -150,7 +92,7 @@ window.Quarto = {
   <li class="dropdown-header">
  <span class="menu-text">Blog</span></li>
   <li class="nav-item">
-    <a class="nav-link" href="./blog.html"> 
+    <a class="nav-link" href="../../blog.html"> 
 <span class="menu-text">SoundReproSteps</span></a>
   </li>  
   <li class="nav-item compact">
@@ -171,230 +113,174 @@ window.Quarto = {
     </nav>
 </header>
 <!-- content -->
-<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
+<header id="title-block-header" class="quarto-title-block default page-columns page-full">
+  <div class="quarto-title-banner page-columns page-full">
+    <div class="quarto-title column-body">
+      <h1 class="title">Beginning with reproducibility in mind</h1>
+                                <div class="quarto-categories">
+                <div class="quarto-category">reproducibility</div>
+                <div class="quarto-category">Beginner</div>
+                <div class="quarto-category">Best practices</div>
+              </div>
+                  </div>
+  </div>
+    
+  
+  <div class="quarto-title-meta">
+
+      <div>
+      <div class="quarto-title-meta-heading">Author</div>
+      <div class="quarto-title-meta-contents">
+               <p>Soundarya Soundararajan </p>
+            </div>
+    </div>
+      
+      <div>
+      <div class="quarto-title-meta-heading">Published</div>
+      <div class="quarto-title-meta-contents">
+        <p class="date">October 9, 2024</p>
+      </div>
+    </div>
+    
+      
+    </div>
+    
+  
+  </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#common-beginner-problems-without-reproducibility" id="toc-common-beginner-problems-without-reproducibility" class="nav-link active" data-scroll-target="#common-beginner-problems-without-reproducibility">Common Beginner Problems without Reproducibility</a>
+  <ul class="collapse">
+  <li><a href="#accumulating-many-files-in-various-formats" id="toc-accumulating-many-files-in-various-formats" class="nav-link" data-scroll-target="#accumulating-many-files-in-various-formats"><em>Accumulating many files in various formats</em></a></li>
+  <li><a href="#messing-up-raw-data" id="toc-messing-up-raw-data" class="nav-link" data-scroll-target="#messing-up-raw-data"><em>Messing up raw data</em></a></li>
+  <li><a href="#code-fails-on-different-systems" id="toc-code-fails-on-different-systems" class="nav-link" data-scroll-target="#code-fails-on-different-systems"><em>Code fails on different systems</em></a></li>
+  <li><a href="#difficulties-tracking-down-code-segments" id="toc-difficulties-tracking-down-code-segments" class="nav-link" data-scroll-target="#difficulties-tracking-down-code-segments"><em>Difficulties tracking down code segments</em></a></li>
+  <li><a href="#multiple-data-intermediates" id="toc-multiple-data-intermediates" class="nav-link" data-scroll-target="#multiple-data-intermediates"><em>Multiple data intermediates</em></a></li>
+  </ul></li>
+  <li><a href="#how-basic-reproducibility-principles-address-these-problems" id="toc-how-basic-reproducibility-principles-address-these-problems" class="nav-link" data-scroll-target="#how-basic-reproducibility-principles-address-these-problems">How Basic Reproducibility Principles Address These Problems</a>
+  <ul class="collapse">
+  <li><a href="#working-in-projects" id="toc-working-in-projects" class="nav-link" data-scroll-target="#working-in-projects"><strong>Working in Projects</strong></a></li>
+  <li><a href="#consistent-folder-structures-separate-raw-and-derived-data" id="toc-consistent-folder-structures-separate-raw-and-derived-data" class="nav-link" data-scroll-target="#consistent-folder-structures-separate-raw-and-derived-data"><strong>Consistent Folder Structures (Separate Raw and Derived Data)</strong></a></li>
+  <li><a href="#using-herehere-for-file-paths" id="toc-using-herehere-for-file-paths" class="nav-link" data-scroll-target="#using-herehere-for-file-paths"><strong>Using <code>here::here()</code> for File Paths</strong></a></li>
+  <li><a href="#writing-separate-scripts-for-different-tasks" id="toc-writing-separate-scripts-for-different-tasks" class="nav-link" data-scroll-target="#writing-separate-scripts-for-different-tasks"><strong>Writing Separate Scripts for Different Tasks</strong></a></li>
+  <li><a href="#avoid-saving-output-files" id="toc-avoid-saving-output-files" class="nav-link" data-scroll-target="#avoid-saving-output-files"><strong>Avoid Saving Output Files</strong></a></li>
+  </ul></li>
+  </ul>
+</nav>
+    </div>
 <!-- main -->
-<main class="content column-page" id="quarto-document-content">
-
-<header id="title-block-header" class="quarto-title-block default">
-<div class="quarto-title">
-<h1 class="title">Archive</h1>
-</div>
-
-
-
-<div class="quarto-title-meta column-page">
-
-    
-  
-    
-  </div>
-  
-
-
-</header>
+<main class="content quarto-banner-title-block" id="quarto-document-content">
 
 
 
 
 
+<p><strong>In this post, I argue why as a beginner, you should start with reproducibility in mind while using R.</strong></p>
+<p>I know your goal as a researcher is just to get the project done—<em>completion first, quality later</em>. This is where we all began. Just like learning the alphabet, we started slowly. But once we learned the alphabet, we wanted to build words. There is a natural traction to do that.</p>
+<p>When you start in R, with just the “ABCs,” you will gain strength and confidence to move forward. You will also notice that there are flaws in your workflows, stumbling blocks, and accumulating files that deteriorate your further learning. The more you learn, the more you create, and the more .r files and outputs you generate. <em>You can do R now, but it is not enjoyable—the initial honeymoon phase has ended.</em></p>
+<blockquote class="blockquote">
+<p><strong>Welcome! This is natural and the time to shift gears to reproducibility in R.</strong></p>
+</blockquote>
+<p>While as beginners, we just wanted to get the code out to produce the plot we wanted, a reproducible researcher, however, thinks differently. <em>From the beginning, they plan, conduct, and wrap up their analysis with reproducibility in mind.</em> Why? Because it helps them grow, allows for improvement, and creates workflows they can scale and build upon.</p>
+<p>Here, I will list the common problems encountered in R as a beginner without reproducibility and later introduce a minimal viable reproducible workflow to start. You can expand it as necessary.</p>
+<section id="common-beginner-problems-without-reproducibility" class="level2">
+<h2 class="anchored" data-anchor-id="common-beginner-problems-without-reproducibility">Common Beginner Problems without Reproducibility</h2>
+<section id="accumulating-many-files-in-various-formats" class="level3">
+<h3 class="anchored" data-anchor-id="accumulating-many-files-in-various-formats"><em>Accumulating many files in various formats</em></h3>
+<p>Without a structured system, you end up with a mess of <code>.R</code>, <code>.Rmd</code>, <code>.docx</code>, <code>.qmd</code>, <code>.png</code> files scattered everywhere, often with vague names like <code>rplot1.png</code>, <code>script1.R</code>, <code>script2.R</code>. You’ll never want to revisit these chaotic files.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="https://www.pexels.com/photo/kid-under-pile-of-clothes-on-floor-10557069/"><img src="mess.jpg" class="img-fluid figure-img" alt="Credit: Photo by Ron Lach"></a></p>
+<figcaption>Credit: Photo by Ron Lach</figcaption>
+</figure>
+</div>
+</section>
+<section id="messing-up-raw-data" class="level3">
+<h3 class="anchored" data-anchor-id="messing-up-raw-data"><em>Messing up raw data</em></h3>
+<p>If you accidentally modify the raw data without proper backups, you may find yourself needing to re-import it or redo everything from scratch.</p>
+</section>
+<section id="code-fails-on-different-systems" class="level3">
+<h3 class="anchored" data-anchor-id="code-fails-on-different-systems"><em>Code fails on different systems</em></h3>
+<p>You write code that works on your machine, but it doesn’t run properly on another system or when integrated into an <code>.Rmd</code> or Quarto file.</p>
+</section>
+<section id="difficulties-tracking-down-code-segments" class="level3">
+<h3 class="anchored" data-anchor-id="difficulties-tracking-down-code-segments"><em>Difficulties tracking down code segments</em></h3>
+<p>With long scripts, you often lose track of where specific functions, like renaming variables, are located. Searching doesn’t help when the code is poorly organized.</p>
+</section>
+<section id="multiple-data-intermediates" class="level3">
+<h3 class="anchored" data-anchor-id="multiple-data-intermediates"><em>Multiple data intermediates</em></h3>
+<p>You may end up with various versions of data and analysis files saved without knowing which one is most current or relevant.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="https://www.pexels.com/photo/green-seats-on-stadium-18960948/"><img src="multiples.jpg" class="img-fluid figure-img" alt="Credit: Photo by Van Anh Nguyen"></a></p>
+<figcaption>Credit: Photo by Van Anh Nguyen</figcaption>
+</figure>
+</div>
+</section>
+</section>
+<section id="how-basic-reproducibility-principles-address-these-problems" class="level2">
+<h2 class="anchored" data-anchor-id="how-basic-reproducibility-principles-address-these-problems">How Basic Reproducibility Principles Address These Problems</h2>
+<section id="working-in-projects" class="level3">
+<h3 class="anchored" data-anchor-id="working-in-projects"><strong>Working in Projects</strong></h3>
+<ul>
+<li>Organizing your work into projects keeps things simpler. If you need to refer to scripts from other projects, you can still open them in RStudio without mixing files.</li>
+<li>This approach prevents you from accumulating unrelated files in one chaotic directory, which makes revisiting projects feel overwhelming. Starting clean with well-organized project folders helps.</li>
+</ul>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="https://www.pexels.com/photo/pondering-female-secretary-picking-folder-in-workplace-3791242/"><img src="project.jpg" class="img-fluid figure-img" alt="You have one project for each analysis; Credit: Photo by Andrea Piacquadio"></a></p>
+<figcaption>You have one project for each analysis; Credit: Photo by Andrea Piacquadio</figcaption>
+</figure>
+</div>
+</section>
+<section id="consistent-folder-structures-separate-raw-and-derived-data" class="level3">
+<h3 class="anchored" data-anchor-id="consistent-folder-structures-separate-raw-and-derived-data"><strong>Consistent Folder Structures (Separate Raw and Derived Data)</strong></h3>
+<ul>
+<li>Navigating your files becomes easier, and you’ll always know where to find the raw and processed data.</li>
+<li>Keeping raw data separate helps avoid accidental modifications. You can update your data cleaning scripts while keeping the original data intact—an essential principle.</li>
+</ul>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="https://www.pexels.com/photo/multi-colored-folders-piled-up-159519/"><img src="folders.jpg" class="img-fluid figure-img" alt="Credit: Photo by Pixabay"></a></p>
+<figcaption>Credit: Photo by Pixabay</figcaption>
+</figure>
+</div>
+</section>
+<section id="using-herehere-for-file-paths" class="level3">
+<h3 class="anchored" data-anchor-id="using-herehere-for-file-paths"><strong>Using <code>here::here()</code> for File Paths</strong></h3>
+<p>This approach ensures that your project can run on different devices and systems without breaking due to absolute file paths. When you use R Markdown or Quarto, your code will function across platforms without needing major adjustments.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="https://www.pexels.com/photo/man-going-down-a-slide-7968292/"><img src="here.jpg" class="img-fluid figure-img" alt="Credit: Photo by George Pak"></a></p>
+<figcaption>Credit: Photo by George Pak</figcaption>
+</figure>
+</div>
+</section>
+<section id="writing-separate-scripts-for-different-tasks" class="level3">
+<h3 class="anchored" data-anchor-id="writing-separate-scripts-for-different-tasks"><strong>Writing Separate Scripts for Different Tasks</strong></h3>
+<p>Breaking your code into modular scripts makes it easier to debug. You’ll always know which script to edit when something needs fixing.</p>
+</section>
+<section id="avoid-saving-output-files" class="level3">
+<h3 class="anchored" data-anchor-id="avoid-saving-output-files"><strong>Avoid Saving Output Files</strong></h3>
+<p>While it may seem counterintuitive, the goal is to avoid saving outputs like graphs and tables. Instead, focus on saving the code that generates them. Think of the code as the recipe—the “cooking” only takes a few minutes, and you can always reproduce your results quickly when needed.</p>
+<p>By following these reproducibility principles, you can avoid common pitfalls, improve your workflow, and build projects that are easier to manage and scale.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="start.jpg" class="img-fluid figure-img"></p>
+<figcaption>Credit: Photo by Breakingpic</figcaption>
+</figure>
+</div>
 
-<div class="quarto-listing quarto-listing-container-default" id="listing-listing">
-<div class="list quarto-listing-default">
-<div class="quarto-post image-right" data-index="0" data-categories="reproducibility,Beginner,Best practices" data-listing-date-sort="1728412200000" data-listing-file-modified-sort="1728457179656" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="4" data-listing-word-count-sort="675">
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./posts/2024-10-09-beginningwithrepro/beginningwithrepro.html" class="no-external">Beginning with reproducibility in mind</a>
-</h3>
-<div class="listing-subtitle">
-<a href="./posts/2024-10-09-beginningwithrepro/beginningwithrepro.html" class="no-external"></a>
-</div>
-</div>
-<div class="metadata">
-<a href="./posts/2024-10-09-beginningwithrepro/beginningwithrepro.html" class="no-external">
-<div class="listing-date">
-Oct 9, 2024
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="1" data-categories="reproducibility,Beginner,Best practices" data-listing-date-sort="1719858600000" data-listing-file-modified-sort="1728456550650" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="4" data-listing-word-count-sort="756">
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./posts/2024-07-02-rforreproducibility/rforreproducibility.html" class="no-external">From Charts to Consistency: My R Journey to Reproducibility</a>
-</h3>
-<div class="listing-subtitle">
-<a href="./posts/2024-07-02-rforreproducibility/rforreproducibility.html" class="no-external"></a>
-</div>
-</div>
-<div class="metadata">
-<a href="./posts/2024-07-02-rforreproducibility/rforreproducibility.html" class="no-external">
-<div class="listing-date">
-Jul 2, 2024
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="2" data-categories="reproducibility,science,General audience,General public" data-listing-date-sort="1711391400000" data-listing-file-modified-sort="1719898856631" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3" data-listing-word-count-sort="588">
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./posts/2024-03-26-reproSimplified/Reproducibility-Simplified.html" class="no-external">Why Making the Same Rasam Matters: A Story from the Kitchen</a>
-</h3>
-<div class="listing-subtitle">
-<a href="./posts/2024-03-26-reproSimplified/Reproducibility-Simplified.html" class="no-external"></a>
-</div>
-</div>
-<div class="metadata">
-<a href="./posts/2024-03-26-reproSimplified/Reproducibility-Simplified.html" class="no-external">
-<div class="listing-date">
-Mar 26, 2024
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="3" data-categories="documentation,analysis,beginners" data-listing-date-sort="1704738600000" data-listing-file-modified-sort="1704794389268" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="4" data-listing-word-count-sort="690">
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./posts/2024-01-09-logr/logr.html" class="no-external">The Beginner’s Blueprint: Crafting a Documented Path in Your R Data Analysis Journey</a>
-</h3>
-<div class="listing-subtitle">
-<a href="./posts/2024-01-09-logr/logr.html" class="no-external"></a>
-</div>
-</div>
-<div class="metadata">
-<a href="./posts/2024-01-09-logr/logr.html" class="no-external">
-<div class="listing-date">
-Jan 9, 2024
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="4" data-categories="reproducibility,research,science" data-listing-date-sort="1700591400000" data-listing-file-modified-sort="1700648731663" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3" data-listing-word-count-sort="471">
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./posts/2023-11-22-reproducibility/reproducibility.html" class="no-external">Reproducibility: A Non-Negotiable Imperative</a>
-</h3>
-<div class="listing-subtitle">
-<a href="./posts/2023-11-22-reproducibility/reproducibility.html" class="no-external"></a>
-</div>
-</div>
-<div class="metadata">
-<a href="./posts/2023-11-22-reproducibility/reproducibility.html" class="no-external">
-<div class="listing-date">
-Nov 22, 2023
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="5" data-categories="EDA,data-overview,beginners" data-listing-date-sort="1682879400000" data-listing-file-modified-sort="1682919704788" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="239">
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./posts/2023-05-01-dfsummary/dfsummary.html" class="no-external">Create a Comprehensive Report of All Variables in R</a>
-</h3>
-<div class="listing-subtitle">
-<a href="./posts/2023-05-01-dfsummary/dfsummary.html" class="no-external"></a>
-</div>
-</div>
-<div class="metadata">
-<a href="./posts/2023-05-01-dfsummary/dfsummary.html" class="no-external">
-<div class="listing-date">
-May 1, 2023
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="6" data-categories="writing,research,beginners" data-listing-date-sort="1681756200000" data-listing-file-modified-sort="1684833615731" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3" data-listing-word-count-sort="516">
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./posts/parallel-movies-research/modernstorytelling.html" class="no-external">Modern Storytelling: Examining the parallels in Movies and Academic Papers</a>
-</h3>
-<div class="listing-subtitle">
-<a href="./posts/parallel-movies-research/modernstorytelling.html" class="no-external"></a>
-</div>
-</div>
-<div class="metadata">
-<a href="./posts/parallel-movies-research/modernstorytelling.html" class="no-external">
-<div class="listing-date">
-Apr 18, 2023
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="7" data-categories="best-practices,EDA,beginners" data-listing-date-sort="1680028200000" data-listing-file-modified-sort="1684833441879" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="69">
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./posts/2023-05-23-onEDA/EDA.html" class="no-external">Exploring With Intention - Exploratory data analysis for beginners in R</a>
-</h3>
-<div class="listing-subtitle">
-<a href="./posts/2023-05-23-onEDA/EDA.html" class="no-external"></a>
-</div>
-</div>
-<div class="metadata">
-<a href="./posts/2023-05-23-onEDA/EDA.html" class="no-external">
-<div class="listing-date">
-Mar 29, 2023
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="8" data-categories="best-practices,atomic-essays,beginners" data-listing-date-sort="1680028200000" data-listing-file-modified-sort="1682922082630" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="49">
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./posts/benefits-reproducibility/reproducibility-benefits-beginners.html" class="no-external">Building a Foundation for Success: How Reproducibility Practices in R Benefit Beginners</a>
-</h3>
-<div class="listing-subtitle">
-<a href="./posts/benefits-reproducibility/reproducibility-benefits-beginners.html" class="no-external"></a>
-</div>
-</div>
-<div class="metadata">
-<a href="./posts/benefits-reproducibility/reproducibility-benefits-beginners.html" class="no-external">
-<div class="listing-date">
-Mar 29, 2023
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="9" data-categories="best-practices,here,projects" data-listing-date-sort="1679855400000" data-listing-file-modified-sort="1700650518926" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3" data-listing-word-count-sort="455">
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./posts/post-with-code/here.html" class="no-external">Clear Paths for Reproducible R: Here Package</a>
-</h3>
-<div class="listing-subtitle">
-<a href="./posts/post-with-code/here.html" class="no-external"></a>
-</div>
-</div>
-<div class="metadata">
-<a href="./posts/post-with-code/here.html" class="no-external">
-<div class="listing-date">
-Mar 27, 2023
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="10" data-categories="news" data-listing-date-sort="1679596200000" data-listing-file-modified-sort="1679904940754" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="32">
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./posts/welcome/index.html" class="no-external">Welcome To My Blog</a>
-</h3>
-<div class="listing-subtitle">
-<a href="./posts/welcome/index.html" class="no-external"></a>
-</div>
-</div>
-<div class="metadata">
-<a href="./posts/welcome/index.html" class="no-external">
-<div class="listing-date">
-Mar 24, 2023
-</div>
-</a>
-</div>
-</div>
-</div>
-<div class="listing-no-matching d-none">
-No matching items
-</div>
-</div></main> <!-- /main -->
+
+</section>
+</section>
+
+</main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {
