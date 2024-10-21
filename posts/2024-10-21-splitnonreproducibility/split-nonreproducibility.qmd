@@ -38,6 +38,10 @@ This logbook can take many forms, from a basic text file (.txt) to more speciali
 
 Before I write my methods section, I simply consult my logbook to recall the steps taken, the decisions made, and the rationale behind them. This practice not only enhances reproducibility but also serves as a valuable resource for future projects by us and others. **By investing time in maintaining a logbook, we invest in the integrity and longevity of our research.**
 
+<aside>
+I wrote a post on using the `logr` package for logging by analysis on the go. Read it [here](https://sound-reproducible-r.netlify.app/posts/2024-01-09-logr/logr)
+</aside>
+
 ### Writing for Others
 
 Consider the First-Time Reader Just as the splint manufacturer likely intended for their product to be user-friendly, they failed to ensure that the instructions were clear for a first-time user. The booklet seemed written by someone already familiar with the product, overlooking the needs of new customers. A simple quality check—giving the instructions to someone unfamiliar with the splint—could have exposed its flaws. In the same way, **when writing research logs and methods, we must always consider the perspective of those encountering the information for the first time**. This ensures that our work is accessible and reproducible, which is critical to advancing science. Ultimately, reproducibility should always be the goal.
