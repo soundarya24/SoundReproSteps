@@ -6,8 +6,10 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
+<meta name="author" content="Soundarya Soundararajan">
+<meta name="dcterms.date" content="2024-10-21">
 
-<title>SoundReproSteps - Archive</title>
+<title>SoundReproSteps - Lessons from a Splint: How Non-Reproducibility Hurts Science</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -23,24 +25,22 @@ ul.task-list li input[type="checkbox"] {
 </style>
 
 
-<script src="site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="site_libs/quarto-nav/headroom.min.js"></script>
-<script src="site_libs/clipboard/clipboard.min.js"></script>
-<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="site_libs/quarto-search/fuse.min.js"></script>
-<script src="site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="./">
-<script src="site_libs/quarto-listing/list.min.js"></script>
-<script src="site_libs/quarto-listing/quarto-listing.js"></script>
-<script src="site_libs/quarto-html/quarto.js"></script>
-<script src="site_libs/quarto-html/popper.min.js"></script>
-<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="site_libs/quarto-html/anchor.min.js"></script>
-<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
-<script src="site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../">
+<script src="../../site_libs/quarto-html/quarto.js"></script>
+<script src="../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -68,76 +68,18 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
-<script>
 
-  window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-listing .list');
-    if (!listingTargetEl) {
-      // No listing discovered, do not attach.
-      return; 
-    }
-
-    const options = {
-      valueNames: ['listing-date','listing-title',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
-      
-      searchColumns: ["listing-date","listing-title","listing-author","listing-image","listing-description"],
-    };
-
-    window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-listing'] = new List('listing-listing', options);
-
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  });
-
-  window.addEventListener('hashchange',() => {
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  })
-  </script>
-
-  <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
-  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
-
-<script type="text/javascript">
-const typesetMath = (el) => {
-  if (window.MathJax) {
-    // MathJax Typeset
-    window.MathJax.typeset([el]);
-  } else if (window.katex) {
-    // KaTeX Render
-    var mathElements = el.getElementsByClassName("math");
-    var macros = [];
-    for (var i = 0; i < mathElements.length; i++) {
-      var texText = mathElements[i].firstChild;
-      if (mathElements[i].tagName == "SPAN") {
-        window.katex.render(texText.data, mathElements[i], {
-          displayMode: mathElements[i].classList.contains('display'),
-          throwOnError: false,
-          macros: macros,
-          fleqn: false
-        });
-      }
-    }
-  }
-}
-window.Quarto = {
-  typesetMath
-};
-</script>
 
 </head>
 
 <body class="nav-fixed">
 
 <div id="quarto-search-results"></div>
-  <header id="quarto-header" class="headroom fixed-top">
+  <header id="quarto-header" class="headroom fixed-top quarto-banner">
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
-    <a class="navbar-brand" href="./index.html">
+    <a class="navbar-brand" href="../../index.html">
     <span class="navbar-title">SoundReproSteps</span>
     </a>
   </div>
@@ -150,7 +92,7 @@ window.Quarto = {
   <li class="dropdown-header">
  <span class="menu-text">Blog</span></li>
   <li class="nav-item">
-    <a class="nav-link" href="./blog.html"> 
+    <a class="nav-link" href="../../blog.html"> 
 <span class="menu-text">SoundReproSteps</span></a>
   </li>  
   <li class="nav-item compact">
@@ -171,247 +113,114 @@ window.Quarto = {
     </nav>
 </header>
 <!-- content -->
-<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
+<header id="title-block-header" class="quarto-title-block default page-columns page-full">
+  <div class="quarto-title-banner page-columns page-full">
+    <div class="quarto-title column-body">
+      <h1 class="title">Lessons from a Splint: How Non-Reproducibility Hurts Science</h1>
+                                <div class="quarto-categories">
+                <div class="quarto-category">reproducibility</div>
+                <div class="quarto-category">Beginner</div>
+                <div class="quarto-category">logbooks</div>
+              </div>
+                  </div>
+  </div>
+    
+  
+  <div class="quarto-title-meta">
+
+      <div>
+      <div class="quarto-title-meta-heading">Author</div>
+      <div class="quarto-title-meta-contents">
+               <p>Soundarya Soundararajan </p>
+            </div>
+    </div>
+      
+      <div>
+      <div class="quarto-title-meta-heading">Published</div>
+      <div class="quarto-title-meta-contents">
+        <p class="date">October 21, 2024</p>
+      </div>
+    </div>
+    
+      
+    </div>
+    
+  
+  </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#the-unspoken-pain-of-non-reproducibility" id="toc-the-unspoken-pain-of-non-reproducibility" class="nav-link active" data-scroll-target="#the-unspoken-pain-of-non-reproducibility">The Unspoken Pain of Non-Reproducibility</a></li>
+  <li><a href="#a-real-life-experience-the-splint-that-couldnt-be-used" id="toc-a-real-life-experience-the-splint-that-couldnt-be-used" class="nav-link" data-scroll-target="#a-real-life-experience-the-splint-that-couldnt-be-used">A Real-Life Experience: The Splint That Couldn’t Be Used</a></li>
+  <li><a href="#the-parallel-to-research-when-methods-fail-us" id="toc-the-parallel-to-research-when-methods-fail-us" class="nav-link" data-scroll-target="#the-parallel-to-research-when-methods-fail-us">The Parallel to Research: When Methods Fail Us</a></li>
+  <li><a href="#the-need-for-explicit-methods-in-research" id="toc-the-need-for-explicit-methods-in-research" class="nav-link" data-scroll-target="#the-need-for-explicit-methods-in-research">The Need for Explicit Methods in Research</a></li>
+  <li><a href="#logbooks-a-simple-solution-to-a-complex-problem" id="toc-logbooks-a-simple-solution-to-a-complex-problem" class="nav-link" data-scroll-target="#logbooks-a-simple-solution-to-a-complex-problem">Logbooks: A Simple Solution to a Complex Problem</a></li>
+  <li><a href="#writing-for-others" id="toc-writing-for-others" class="nav-link" data-scroll-target="#writing-for-others">Writing for Others</a></li>
+  </ul>
+</nav>
+    </div>
 <!-- main -->
-<main class="content column-page" id="quarto-document-content">
-
-<header id="title-block-header" class="quarto-title-block default">
-<div class="quarto-title">
-<h1 class="title">Archive</h1>
-</div>
-
-
-
-<div class="quarto-title-meta column-page">
-
-    
-  
-    
-  </div>
-  
-
-
-</header>
+<main class="content quarto-banner-title-block" id="quarto-document-content">
 
 
 
 
 
+<blockquote class="blockquote">
+<p><strong>If a method can’t be followed, it’s as good as not shared</strong></p>
+</blockquote>
+<section id="the-unspoken-pain-of-non-reproducibility" class="level3">
+<h3 class="anchored" data-anchor-id="the-unspoken-pain-of-non-reproducibility">The Unspoken Pain of Non-Reproducibility</h3>
+<p>All these years, I have extensively discussed the importance of reproducibility in research, yet I have seldom highlighted the significant frustration and setbacks caused by non-reproducibility. Nick Milo refers to “<em>info pain</em>” as the overwhelming feeling of being inundated with too much information. In a similar vein, I describe <strong>“non-reproducibility pain” as a tangible and exasperating experience</strong>—one I recently encountered firsthand. This frustration underscores the very essence of reproducibility, illustrating why it is not merely a technicality in research, but a crucial aspect of scientific integrity.</p>
+</section>
+<section id="a-real-life-experience-the-splint-that-couldnt-be-used" class="level3">
+<h3 class="anchored" data-anchor-id="a-real-life-experience-the-splint-that-couldnt-be-used">A Real-Life Experience: The Splint That Couldn’t Be Used</h3>
+<p>My mom developed hallux valgus, or a deviated great toe, and we bought a splint for her. It came with an information booklet, but we couldn’t decipher how to use the product properly. All we saw was an assembled image of how it should be worn, but the information booklet only added to the confusion. <strong>It was filled with details that were difficult to follow in practice</strong>. The hinge on the splint kept moving when we tried it on her foot, and we weren’t sure whether the hinge should be on the side or above the toe. Finally, we gave up on the booklet and figured it out ourselves. Still, we had issues managing the straps, and after we thought we had everything set up, my mom complained of pain from the strap scraping her skin.</p>
+</section>
+<section id="the-parallel-to-research-when-methods-fail-us" class="level3">
+<h3 class="anchored" data-anchor-id="the-parallel-to-research-when-methods-fail-us">The Parallel to Research: When Methods Fail Us</h3>
+<p>This experience mirrors a common issue in research: the methods sections we write often fail to consider whether others can follow and replicate our procedures. Just as the splint’s instructions were unclear, leaving us frustrated, poorly written methods in research create barriers for others attempting to reproduce results. If we don’t keep the needs of the reader in mind—someone who may be unfamiliar with the work—it becomes nearly impossible for them to replicate the study. <strong>Ultimately, methods that are not accessible and explicit undermine the very purpose of sharing research.</strong></p>
+</section>
+<section id="the-need-for-explicit-methods-in-research" class="level3">
+<h3 class="anchored" data-anchor-id="the-need-for-explicit-methods-in-research">The Need for Explicit Methods in Research</h3>
+<blockquote class="blockquote">
+<p><strong>The primary goal of writing research papers is to allow others to learn from, build on, and replicate our work.</strong></p>
+</blockquote>
+<p>To achieve this, the methods section must be explicit—detailed enough that even someone new to the subject can understand and independently follow the procedure. <strong>Clarity in writing is crucial, not just in outlining the methods but also in documenting the analysis.</strong> Both aspects must be reproducible, ensuring that others—and even our future selves—can retrace the steps with precision. Without this level of transparency, the value of our research is diminished, as its core purpose—reproducibility—remains unmet.</p>
+</section>
+<section id="logbooks-a-simple-solution-to-a-complex-problem" class="level3">
+<h3 class="anchored" data-anchor-id="logbooks-a-simple-solution-to-a-complex-problem">Logbooks: A Simple Solution to a Complex Problem</h3>
+<p>A detailed logbook offers a simple yet powerful solution to the challenges of reproducibility. By documenting errors, solutions, and key decisions throughout the analysis, researchers create a comprehensive guide that makes it easier to retrace steps and replicate findings. &gt; The process requires some mindful stops: periodically pausing to summarize the key points in the logbook, ensuring nothing crucial is overlooked.</p>
+<p>This logbook can take many forms, from a basic text file (.txt) to more specialized formats like .rmd or Quarto files in R. Personally, I prefer a minimalist, handwritten logbook to clearly distinguish it from other analysis documents.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="dataanalysisbook.png" class="img-fluid quarto-figure quarto-figure-center figure-img" style="width:24.39in"></p>
+<figcaption>A peek into my logbook</figcaption>
+</figure>
+</div>
+<p>Before I write my methods section, I simply consult my logbook to recall the steps taken, the decisions made, and the rationale behind them. This practice not only enhances reproducibility but also serves as a valuable resource for future projects by us and others. <strong>By investing time in maintaining a logbook, we invest in the integrity and longevity of our research.</strong></p>
+</section>
+<section id="writing-for-others" class="level3">
+<h3 class="anchored" data-anchor-id="writing-for-others">Writing for Others</h3>
+<p>Consider the First-Time Reader Just as the splint manufacturer likely intended for their product to be user-friendly, they failed to ensure that the instructions were clear for a first-time user. The booklet seemed written by someone already familiar with the product, overlooking the needs of new customers. A simple quality check—giving the instructions to someone unfamiliar with the splint—could have exposed its flaws. In the same way, <strong>when writing research logs and methods, we must always consider the perspective of those encountering the information for the first time</strong>. This ensures that our work is accessible and reproducible, which is critical to advancing science. Ultimately, reproducibility should always be the goal.</p>
+<blockquote class="blockquote">
+<p><strong>Research Isn’t Done Until It’s Reproducible!</strong></p>
+</blockquote>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="logbook.jpg" class="img-fluid figure-img"></p>
+<figcaption>Logbook Photo by ALTEREDSNAPS</figcaption>
+</figure>
+</div>
 
-<div class="quarto-listing quarto-listing-container-default" id="listing-listing">
-<div class="list quarto-listing-default">
-<div class="quarto-post image-right" data-index="0" data-categories="reproducibility,Beginner,logbooks" data-listing-date-sort="1729449000000" data-listing-file-modified-sort="1729493973280" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="4" data-listing-word-count-sort="731">
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./posts/2024-10-21-splitnonreproducibility/split-nonreproducibility.html" class="no-external">Lessons from a Splint: How Non-Reproducibility Hurts Science</a>
-</h3>
-<div class="listing-subtitle">
-<a href="./posts/2024-10-21-splitnonreproducibility/split-nonreproducibility.html" class="no-external"></a>
-</div>
-</div>
-<div class="metadata">
-<a href="./posts/2024-10-21-splitnonreproducibility/split-nonreproducibility.html" class="no-external">
-<div class="listing-date">
-Oct 21, 2024
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="1" data-categories="reproducibility,Beginner,Best practices" data-listing-date-sort="1728412200000" data-listing-file-modified-sort="1728457179656" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="4" data-listing-word-count-sort="675">
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./posts/2024-10-09-beginningwithrepro/beginningwithrepro.html" class="no-external">Beginning with reproducibility in mind</a>
-</h3>
-<div class="listing-subtitle">
-<a href="./posts/2024-10-09-beginningwithrepro/beginningwithrepro.html" class="no-external"></a>
-</div>
-</div>
-<div class="metadata">
-<a href="./posts/2024-10-09-beginningwithrepro/beginningwithrepro.html" class="no-external">
-<div class="listing-date">
-Oct 9, 2024
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="2" data-categories="reproducibility,Beginner,Best practices" data-listing-date-sort="1719858600000" data-listing-file-modified-sort="1728456550650" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="4" data-listing-word-count-sort="756">
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./posts/2024-07-02-rforreproducibility/rforreproducibility.html" class="no-external">From Charts to Consistency: My R Journey to Reproducibility</a>
-</h3>
-<div class="listing-subtitle">
-<a href="./posts/2024-07-02-rforreproducibility/rforreproducibility.html" class="no-external"></a>
-</div>
-</div>
-<div class="metadata">
-<a href="./posts/2024-07-02-rforreproducibility/rforreproducibility.html" class="no-external">
-<div class="listing-date">
-Jul 2, 2024
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="3" data-categories="reproducibility,science,General audience,General public" data-listing-date-sort="1711391400000" data-listing-file-modified-sort="1719898856631" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3" data-listing-word-count-sort="588">
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./posts/2024-03-26-reproSimplified/Reproducibility-Simplified.html" class="no-external">Why Making the Same Rasam Matters: A Story from the Kitchen</a>
-</h3>
-<div class="listing-subtitle">
-<a href="./posts/2024-03-26-reproSimplified/Reproducibility-Simplified.html" class="no-external"></a>
-</div>
-</div>
-<div class="metadata">
-<a href="./posts/2024-03-26-reproSimplified/Reproducibility-Simplified.html" class="no-external">
-<div class="listing-date">
-Mar 26, 2024
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="4" data-categories="documentation,analysis,beginners" data-listing-date-sort="1704738600000" data-listing-file-modified-sort="1704794389268" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="4" data-listing-word-count-sort="690">
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./posts/2024-01-09-logr/logr.html" class="no-external">The Beginner’s Blueprint: Crafting a Documented Path in Your R Data Analysis Journey</a>
-</h3>
-<div class="listing-subtitle">
-<a href="./posts/2024-01-09-logr/logr.html" class="no-external"></a>
-</div>
-</div>
-<div class="metadata">
-<a href="./posts/2024-01-09-logr/logr.html" class="no-external">
-<div class="listing-date">
-Jan 9, 2024
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="5" data-categories="reproducibility,research,science" data-listing-date-sort="1700591400000" data-listing-file-modified-sort="1700648731663" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3" data-listing-word-count-sort="471">
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./posts/2023-11-22-reproducibility/reproducibility.html" class="no-external">Reproducibility: A Non-Negotiable Imperative</a>
-</h3>
-<div class="listing-subtitle">
-<a href="./posts/2023-11-22-reproducibility/reproducibility.html" class="no-external"></a>
-</div>
-</div>
-<div class="metadata">
-<a href="./posts/2023-11-22-reproducibility/reproducibility.html" class="no-external">
-<div class="listing-date">
-Nov 22, 2023
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="6" data-categories="EDA,data-overview,beginners" data-listing-date-sort="1682879400000" data-listing-file-modified-sort="1682919704788" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="239">
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./posts/2023-05-01-dfsummary/dfsummary.html" class="no-external">Create a Comprehensive Report of All Variables in R</a>
-</h3>
-<div class="listing-subtitle">
-<a href="./posts/2023-05-01-dfsummary/dfsummary.html" class="no-external"></a>
-</div>
-</div>
-<div class="metadata">
-<a href="./posts/2023-05-01-dfsummary/dfsummary.html" class="no-external">
-<div class="listing-date">
-May 1, 2023
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="7" data-categories="writing,research,beginners" data-listing-date-sort="1681756200000" data-listing-file-modified-sort="1684833615731" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3" data-listing-word-count-sort="516">
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./posts/parallel-movies-research/modernstorytelling.html" class="no-external">Modern Storytelling: Examining the parallels in Movies and Academic Papers</a>
-</h3>
-<div class="listing-subtitle">
-<a href="./posts/parallel-movies-research/modernstorytelling.html" class="no-external"></a>
-</div>
-</div>
-<div class="metadata">
-<a href="./posts/parallel-movies-research/modernstorytelling.html" class="no-external">
-<div class="listing-date">
-Apr 18, 2023
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="8" data-categories="best-practices,EDA,beginners" data-listing-date-sort="1680028200000" data-listing-file-modified-sort="1684833441879" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="69">
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./posts/2023-05-23-onEDA/EDA.html" class="no-external">Exploring With Intention - Exploratory data analysis for beginners in R</a>
-</h3>
-<div class="listing-subtitle">
-<a href="./posts/2023-05-23-onEDA/EDA.html" class="no-external"></a>
-</div>
-</div>
-<div class="metadata">
-<a href="./posts/2023-05-23-onEDA/EDA.html" class="no-external">
-<div class="listing-date">
-Mar 29, 2023
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="9" data-categories="best-practices,atomic-essays,beginners" data-listing-date-sort="1680028200000" data-listing-file-modified-sort="1682922082630" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="49">
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./posts/benefits-reproducibility/reproducibility-benefits-beginners.html" class="no-external">Building a Foundation for Success: How Reproducibility Practices in R Benefit Beginners</a>
-</h3>
-<div class="listing-subtitle">
-<a href="./posts/benefits-reproducibility/reproducibility-benefits-beginners.html" class="no-external"></a>
-</div>
-</div>
-<div class="metadata">
-<a href="./posts/benefits-reproducibility/reproducibility-benefits-beginners.html" class="no-external">
-<div class="listing-date">
-Mar 29, 2023
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="10" data-categories="best-practices,here,projects" data-listing-date-sort="1679855400000" data-listing-file-modified-sort="1700650518926" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3" data-listing-word-count-sort="455">
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./posts/post-with-code/here.html" class="no-external">Clear Paths for Reproducible R: Here Package</a>
-</h3>
-<div class="listing-subtitle">
-<a href="./posts/post-with-code/here.html" class="no-external"></a>
-</div>
-</div>
-<div class="metadata">
-<a href="./posts/post-with-code/here.html" class="no-external">
-<div class="listing-date">
-Mar 27, 2023
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="11" data-categories="news" data-listing-date-sort="1679596200000" data-listing-file-modified-sort="1679904940754" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="32">
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./posts/welcome/index.html" class="no-external">Welcome To My Blog</a>
-</h3>
-<div class="listing-subtitle">
-<a href="./posts/welcome/index.html" class="no-external"></a>
-</div>
-</div>
-<div class="metadata">
-<a href="./posts/welcome/index.html" class="no-external">
-<div class="listing-date">
-Mar 24, 2023
-</div>
-</a>
-</div>
-</div>
-</div>
-<div class="listing-no-matching d-none">
-No matching items
-</div>
-</div></main> <!-- /main -->
+
+</section>
+
+</main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {

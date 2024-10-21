@@ -2,6 +2,7 @@
   {
     "listing": "/archive.html",
     "items": [
+      "/posts/2024-10-21-splitnonreproducibility/split-nonreproducibility.html",
       "/posts/2024-10-09-beginningwithrepro/beginningwithrepro.html",
       "/posts/2024-07-02-rforreproducibility/rforreproducibility.html",
       "/posts/2024-03-26-reproSimplified/Reproducibility-Simplified.html",
@@ -18,6 +19,7 @@
   {
     "listing": "/blog.html",
     "items": [
+      "/posts/2024-10-21-splitnonreproducibility/split-nonreproducibility.html",
       "/posts/2024-10-09-beginningwithrepro/beginningwithrepro.html",
       "/posts/2024-07-02-rforreproducibility/rforreproducibility.html",
       "/posts/2024-03-26-reproSimplified/Reproducibility-Simplified.html",
