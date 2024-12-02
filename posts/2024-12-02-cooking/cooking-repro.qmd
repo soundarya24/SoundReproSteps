@@ -1,5 +1,5 @@
 ---
-title: "Lessons from a Splint: How Non-Reproducibility Hurts Science"
+title: "Reproducible Analysis Pipeline is akin to Cooking: A Simplified Guide"
 author: "Soundarya Soundararajan"
 date: "2024-12-02"
 categories: [reproducibility, Beginner, cooking]
