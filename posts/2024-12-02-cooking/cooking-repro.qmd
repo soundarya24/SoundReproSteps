@@ -1,0 +1,33 @@
+---
+title: "Lessons from a Splint: How Non-Reproducibility Hurts Science"
+author: "Soundarya Soundararajan"
+date: "2024-12-02"
+categories: [reproducibility, Beginner, cooking]
+image: "images/napkin-selection-cooking-overall.png"
+bibliography: references.bib
+---
+
+You might have read earlier [in my blog about how reproducibility relates to rasam](https://sound-reproducible-r.netlify.app/posts/2024-03-26-reprosimplified/reproducibility-simplified). Today, I came up with another example after reading *Reproducible Research in Practice* [@Kitzes2018]*,* an excellent book.
+
+When you decide to cook something, what do you do?
+
+1.  You buy groceries and bring them home.
+2.  You prepare them.
+3.  You cook them.
+
+Similarly, reproducible pipelines have three major steps:
+
+1.  Importing your data.
+2.  Cleaning and preparing the data for analysis.
+3.  Conducting the data analysis.
+
+![Reproducible data analysis is akin to cooking (Viz by Soundarya)](images/napkin-selection-cooking-overall.png){fig-align="center"}
+
+But it doesn’t stop there!\
+When you cook, there’s often a recipe—a written guide. This recipe is akin to writing scripts for how your analysis was conducted. With a recipe, you can recreate your dish. Similarly, with scripts, you can recreate your analysis.
+
+Now, imagine doing this without a recipe. It’d be chaotic! But when you hand over the recipe card, others can reproduce your dish. Likewise, when you share your scripts, others can reproduce your analysis. Of course, you’d need to provide the same groceries too—just like reproducible analysis requires you to share the data alongside your scripts.
+
+![Scripts are recipe cards (Viz by Soundarya)](images/napkin-selection-scripts-recipe.png){fig-align="center"}
+
+Lastly, let’s talk about tidying up. When cooking, you clear the clutter—cleaning the workspace so you’re ready for the next task. In data analysis, this is like closing your session with a clean workspace, leaving only the scripts and data ready for use. This ensures the next analysis uses the most recent data and scripts, much like making sure your meal uses fresh ingredients and the latest recipe.
