@@ -8,6 +8,8 @@ editor_options:
   chunk_output_type: console
 ---
 
+![Post summary by the author](sound-iphone-splint.mp4)
+
 > **If a method can’t be followed, it’s as good as not shared**
 
 ### The Unspoken Pain of Non-Reproducibility
@@ -38,9 +40,7 @@ This logbook can take many forms, from a basic text file (.txt) to more speciali
 
 Before I write my methods section, I simply consult my logbook to recall the steps taken, the decisions made, and the rationale behind them. This practice not only enhances reproducibility but also serves as a valuable resource for future projects by us and others. **By investing time in maintaining a logbook, we invest in the integrity and longevity of our research.**
 
-<aside>
-I wrote a post on using the `logr` package for logging my analysis on the go. Read it [here](https://sound-reproducible-r.netlify.app/posts/2024-01-09-logr/logr)
-</aside>
+<aside>I wrote a post on using the `logr` package for logging my analysis on the go. Read it [here](https://sound-reproducible-r.netlify.app/posts/2024-01-09-logr/logr)</aside>
 
 ### Writing for Others
 
