@@ -2,7 +2,7 @@
 title: "Your Data Are Not Your Data"
 author: "Soundarya Soundararajan"
 date: "2025-04-03"
-categories: [reproducibility, Beginner, data, data sharing, reproducibility, reproducible research, open science, open data, open source, open access, open research]
+categories: [reproducibility, Beginner, data, data sharing]
 image: "data-sharing.jpg"
 ---
 
