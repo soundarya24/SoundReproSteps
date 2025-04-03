@@ -1,0 +1,82 @@
+---
+title: "Your Data Are Not Your Data"
+author: "Soundarya Soundararajan"
+date: "2025-04-03"
+categories: [reproducibility, Beginner, data, data sharing, reproducibility, reproducible research, open science, open data, open source, open access, open research]
+image: "data-sharing.jpg"
+---
+
+> **A Gibran-inspired reflection on data sharing, reproducibility, and the first steps toward letting your data into the world.**
+
+## Why Are We So Hesitant to Share?
+
+Reproducibility often necessitates sharing data, and yet, most of us hesitate. I’ve often wondered why. It started with thinking about code—why people don’t want to share their scripts. But soon, I found myself staring at the heart of it: the data itself. The idea that *what I worked on is mine*, that *I earned this*, that *others will benefit from my effort without knowing how hard I worked*. These thoughts are all too human.
+
+But then something cracked open in me.
+
+## The Gibran Moment That Changed How I Think About Data
+
+I first shared data during a systematic review and meta-analysis to allow an external reviewer to authenticate my code. It was a small but meaningful step. And even though the data set was simple, I remember feeling exposed—what if they found a mistake? What if I’d misunderstood something? That single act revealed how emotional data sharing can be. But it also nudged me into a deeper reflection: *Do I really own this data? Or did I just midwife it into order?* That’s when Gibran came to mind—or more accurately, Kahlil Gibran—and the idea of stewardship rather than ownership began to settle in.
+
+::: {.callout-note icon="🌱" title="“Your data are not your data…”"}
+> *“Your children are not your children.  
+> They are the sons and daughters of Life’s longing for itself…  
+> They come through you but not from you.”*  
+> — *Kahlil Gibran*
+
+:::
+What if we treated data the same way?
+
+As researchers, we often hesitate to share. We think: *I worked hard on this.* *What if someone misuses it?* *What if they find mistakes?* But remember: data came through you, not from you. If not you, someone else might have collected similar truths. You shaped it—but you don’t own it. You steward it.
+
+**Here are 5 gentle steps to begin your journey into data sharing:**
+
+---
+
+### 1. Reproduce Your Own Work First  
+Can you go from raw (or deidentified) data to your final results using only your scripts? Start here. This builds computational reproducibility—your first layer of confidence.
+
+---
+
+### 2. Strip Direct Identifiers  
+Remove anything that can directly identify individuals:
+- Full names  
+- Emails and phone numbers  
+- Addresses  
+- Birth dates  
+- Exact timestamps (consider rounding)
+
+> 💡 *R Tip:*  
+
+```{r}
+#data <- data |> 
+ #       dplyr::select(-name, -email, -dob)
+```
+
+
+---
+
+### 3. Write a Minimal README  
+
+Document:
+
+
+- What this dataset is  
+- What each column means  
+- Cleaning steps or filters applied  
+Even a simple `.txt` or `.md` file can guide others.
+
+---
+
+### 4. Test in Private  
+Try a private GitHub repo or OSF project. Share it with a colleague. Ask: *Can you rerun my analysis using only my README and scripts?*
+
+---
+
+### 5. Forgive Imperfection  
+Perfect datasets are a myth. Aim for clarity, not flawlessness. Each step you take grows the ecosystem of transparent, reproducible science.
+
+
+## Closing Thought
+
+Sharing data is not about giving away your effort. It's about amplifying the work, letting it breathe, and watching it grow in someone else’s hands. Not everything will feel easy—but it can feel meaningful. Start small. Begin somewhere. The world of open science is built on such brave first steps.

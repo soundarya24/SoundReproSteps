@@ -2,6 +2,7 @@
   {
     "listing": "/archive.html",
     "items": [
+      "/posts/2025-04-03-DataSharing/DataSharing.html",
       "/posts/2024-12-26-analysisWorkflow/analysisWorkflow.html",
       "/posts/2024-12-02-cooking/cooking-repro.html",
       "/posts/2024-10-21-splitnonreproducibility/split-nonreproducibility.html",
@@ -21,6 +22,7 @@
   {
     "listing": "/blog.html",
     "items": [
+      "/posts/2025-04-03-DataSharing/DataSharing.html",
       "/posts/2024-12-26-analysisWorkflow/analysisWorkflow.html",
       "/posts/2024-12-02-cooking/cooking-repro.html",
       "/posts/2024-10-21-splitnonreproducibility/split-nonreproducibility.html",
