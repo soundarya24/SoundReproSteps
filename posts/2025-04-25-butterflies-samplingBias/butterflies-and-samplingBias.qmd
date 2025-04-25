@@ -21,6 +21,17 @@ Aka:: Butterflies and statistics[^1]
 Looks like the butterfly didn’t just lead to chaos theory—it fluttered right into reproducibility.\
 **Today, the Butterfly Sage speaks.**
 
+::: {.callout-tip}
+### Prefer to listen instead?
+
+If you’d like to hear an audio version of this post, it’s right here:
+
+[Click to listen](Counting Butterflies_ Sampling Bias and Reproducibility.wav)
+
+*Or scroll down to read the full post below.*
+:::
+
+
 ## The Story flies: A Walk in the Park
 
 Let’s say I ask you to go to a nearby park and give you a task—to count butterflies. You comply. Not because you have to (you’re not *really* my student—just joking!), but because you're curious.
