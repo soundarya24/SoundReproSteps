@@ -74,8 +74,6 @@ In your case:
 
 ::: aside
 My statistician friend rolls his eyes when he hears this definition. I have simplified things to understand them better, but it's not as simple as this reductionist view.
-
-Read more about sampling bias here.
 :::
 
 Butterflies that were camouflaged, resting, flying too high, or active only at other times? All missed.
