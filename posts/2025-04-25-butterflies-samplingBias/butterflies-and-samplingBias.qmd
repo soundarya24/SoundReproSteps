@@ -2,7 +2,7 @@
 title: "Counting Butterflies"
 author: "Soundarya Soundararajan"
 date: "2025-04-25"
-categories: [reproducibility, Beginner, sampling bias, sampling, data collectiob]
+categories: [reproducibility, Beginner, sampling bias, sampling, data collection]
 image: "butterfly.jpg"
 ---
 
