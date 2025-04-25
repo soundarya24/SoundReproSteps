@@ -19,63 +19,63 @@ But then something cracked open in me.
 I first shared data during a systematic review and meta-analysis to allow an external reviewer to authenticate my code. It was a small but meaningful step. And even though the data set was simple, I remember feeling exposed—what if they found a mistake? What if I’d misunderstood something? That single act revealed how emotional data sharing can be. But it also nudged me into a deeper reflection: *Do I really own this data? Or did I just midwife it into order?* That’s when Gibran came to mind—or more accurately, Kahlil Gibran—and the idea of stewardship rather than ownership began to settle in.
 
 ::: {.callout-note icon="🌱" title="“Your data are not your data…”"}
-> *“Your children are not your children.  
-> They are the sons and daughters of Life’s longing for itself…  
-> They come through you but not from you.”*  
+> *“Your children are not your children.\
+> They are the sons and daughters of Life’s longing for itself…\
+> They come through you but not from you.”*\
 > — *Kahlil Gibran*
-
 :::
+
 What if we treated data the same way?
 
 As researchers, we often hesitate to share. We think: *I worked hard on this.* *What if someone misuses it?* *What if they find mistakes?* But remember: data came through you, not from you. If not you, someone else might have collected similar truths. You shaped it—but you don’t own it. You steward it.
 
 **Here are 5 gentle steps to begin your journey into data sharing:**
 
----
+------------------------------------------------------------------------
 
-### 1. Reproduce Your Own Work First  
+### 1. Reproduce Your Own Work First
+
 Can you go from raw (or deidentified) data to your final results using only your scripts? Start here. This builds computational reproducibility—your first layer of confidence.
 
----
+------------------------------------------------------------------------
 
-### 2. Strip Direct Identifiers  
-Remove anything that can directly identify individuals:
-- Full names  
-- Emails and phone numbers  
-- Addresses  
-- Birth dates  
+### 2. Strip Direct Identifiers
+
+Remove anything that can directly identify individuals: - Full names\
+- Emails and phone numbers\
+- Addresses\
+- Birth dates\
 - Exact timestamps (consider rounding)
 
-> 💡 *R Tip:*  
+> 💡 *R Tip:*
 
 ```{r}
 #data <- data |> 
  #       dplyr::select(-name, -email, -dob)
 ```
 
+------------------------------------------------------------------------
 
----
-
-### 3. Write a Minimal README  
+### 3. Write a Minimal README
 
 Document:
 
+-   What this dataset is\
+-   What each column means\
+-   Cleaning steps or filters applied\
+    Even a simple `.txt` or `.md` file can guide others.
 
-- What this dataset is  
-- What each column means  
-- Cleaning steps or filters applied  
-Even a simple `.txt` or `.md` file can guide others.
+------------------------------------------------------------------------
 
----
+### 4. Test in Private
 
-### 4. Test in Private  
 Try a private GitHub repo or OSF project. Share it with a colleague. Ask: *Can you rerun my analysis using only my README and scripts?*
 
----
+------------------------------------------------------------------------
 
-### 5. Forgive Imperfection  
+### 5. Forgive Imperfection
+
 Perfect datasets are a myth. Aim for clarity, not flawlessness. Each step you take grows the ecosystem of transparent, reproducible science.
-
 
 ## Closing Thought
 

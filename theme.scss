@@ -12,3 +12,34 @@ $link-color: blue;
 
 $code-block-border-left: #a67f78;
 $code-block-border-left-size: 24px;
+
+
+/*-- scss:rules --*/
+
+/* Thicker and colored left borders for callouts */
+.callout {
+  border-left-width: 8px;
+  border-left-style: solid;
+  padding-left: 1rem;
+}
+
+/* Callout types with custom colors */
+.callout-note {
+  border-left-color: #268bd2; // blue
+  background-color: rgba(38, 139, 210, 0.05);
+}
+
+.callout-tip {
+  border-left-color: #2aa198; // teal
+  background-color: rgba(42, 161, 152, 0.05);
+}
+
+.callout-warning {
+  border-left-color: #b58900; // mustard yellow
+  background-color: rgba(181, 137, 0, 0.05);
+}
+
+.callout-important {
+  border-left-color: #dc322f; // red
+  background-color: rgba(220, 50, 47, 0.05);
+}
