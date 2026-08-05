@@ -2,6 +2,7 @@
   {
     "listing": "/archive.html",
     "items": [
+      "/posts/2026-08-05-repro-is-a-clutch/repro-is-a-clutch.html",
       "/posts/2025-04-25-butterflies-samplingBias/butterflies-and-samplingBias.html",
       "/posts/2025-04-03-DataSharing/DataSharing.html",
       "/posts/2024-12-26-analysisWorkflow/analysisWorkflow.html",
@@ -23,6 +24,7 @@
   {
     "listing": "/blog.html",
     "items": [
+      "/posts/2026-08-05-repro-is-a-clutch/repro-is-a-clutch.html",
       "/posts/2025-04-25-butterflies-samplingBias/butterflies-and-samplingBias.html",
       "/posts/2025-04-03-DataSharing/DataSharing.html",
       "/posts/2024-12-26-analysisWorkflow/analysisWorkflow.html",
